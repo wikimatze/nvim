@@ -16,7 +16,6 @@ if empty(glob('~/.config/nvim/thesaurus'))
   silent !rm ~/.config/nvim/thesaurus/mthesaur.zip ~/.config/nvim/thesaurus/LICENSE.txt
 endif
 
-
 " Specify a directory for plugins
 call plug#begin('~/.config/nvim/plugged')
 
@@ -39,12 +38,28 @@ Plug 'jamessan/vim-gnupg', '5103285'
 Plug 'janko-m/vim-test', '6ebbd35'
 Plug 'jreybert/vimagit', '1.7.1'
 Plug 'junegunn/vader.vim', '9c1d971'
+Plug 'lervag/vimtex', '402a3fb'
+Plug 'ludovicchabant/vim-gutentags', 'e220e9b'
+Plug 'majutsushi/tagbar', '959f487'
+Plug 'matze/vim-move', 'fd60f3f'
+Plug 'mbbill/undotree', 'ad08a88'
+Plug 'mhinz/vim-grepper', '1ec1b33'
 Plug 'tpope/vim-markdown', '0b92a7d'
-
 Plug 'reedes/vim-lexical', 'fb42333'
+Plug 'reedes/vim-litecorrect', '8d5f233'
+Plug 'scrooloose/syntastic', '3.8.0'
+Plug 'tpope/vim-surround', 'e49d6c2'
+Plug 'tyru/caw.vim', 'ba5d4cc'
+Plug 'vim-ruby/vim-ruby', '5b74d40'
+Plug 'xolox/vim-misc', '1.17.6'
+Plug 'xolox/vim-notes', '0.33.4'
+
+" Plug 'wellle/tmux-complete.vim', '5d371f2'
+" Plug 'wikimatze/vim-radio'
+
+
 " Initialize plugin system
 call plug#end()
-
 
 " General settings {{{
 
