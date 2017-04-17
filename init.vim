@@ -70,7 +70,6 @@ set autoread                                " automatically read a file that has
 set autowrite                               " automatically write a file when moving to another buffer
 set showbreak=↪                             " show the symbol for wrapped lines
 set history=500                             " number of lines for command line history
-set showcmd                                 " show (partial) command in the last line of the screen
 set nowarn                                  " do not warn, when shell command update the file you edit in Vim
 set backspace=indent,eol,start              " allow backspacing over everything in insert mode
 set ch=1                                    " height of the command line at the bottom
