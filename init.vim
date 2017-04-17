@@ -14,6 +14,13 @@ Plug 'Shougo/neoyank.vim', 'ad56eca'
 Plug 'Shougo/unite.vim', '97e63411'
 " Seems like deunite don't need this plugin
 "Plug 'Shougo/vimproc.vim', { 'commit': '25cb83f', 'do': 'make' }
+Plug 'alvan/vim-closetag', '6cfc989'
+Plug 'christoomey/vim-tmux-navigator', '2fc1ed4'
+Plug 'francoiscabrol/ranger.vim', 'b0b8566'
+Plug 'tpope/vim-fugitive', 'aac85a2'
+" need for closing ranger
+Plug 'rbgrouleff/bclose.vim'
+Plug 'gregsexton/gitv', { 'commit': 'v1.3.1', 'on': ['Gitv']} " needs fugitive
 
 " Initialize plugin system
 call plug#end()
