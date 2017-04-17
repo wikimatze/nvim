@@ -23,6 +23,7 @@ Plug 'rbgrouleff/bclose.vim'
 Plug 'gregsexton/gitv', { 'commit': 'v1.3.1', 'on': ['Gitv']} " needs fugitive
 Plug 'itchyny/lightline.vim', '15509c6'
 Plug 'jamessan/vim-gnupg', '5103285'
+Plug 'janko-m/vim-test', '6ebbd35'
 
 " Initialize plugin system
 call plug#end()
@@ -45,6 +46,7 @@ ru mappings/esc_with_jk.vim               " emulate ESC with jk
 ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
 ru mappings/neoyank.vim                   " <leader>y search the yank history
 ru mappings/ranger.vim                    " F2 will call :Ranger
+ru mappings/vim_test.vim                  " <leader>t :TestNearest, <leader>T :TestFile, <leader>a :TestSuite, <leader>l :TestLastVisit, <leader>g :TestVisit
 
 " }}}
 
