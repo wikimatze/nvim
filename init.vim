@@ -63,7 +63,6 @@ call plug#end()
 
 " General settings {{{
 
-set laststatus=2
 set number                                  " display line numbers
 set modeline                                " check first lines of files for style information
 set noerrorbells                            " turn of nasty error sounds
