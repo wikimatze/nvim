@@ -67,6 +67,7 @@ set number                                  " display line numbers
 set noerrorbells                            " turn of nasty error sounds
 set autoindent                              " Copy indent from current line when starting a new line
 set autoread                                " automatically read a file that has changed on disk
+set autowrite                               " automatically write a file when moving to another buffer
 set showbreak=↪                             " show the symbol for wrapped lines
 set history=5000                            " number of lines for command line history
 set showmode                                " show the current modal mode
