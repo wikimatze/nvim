@@ -1,0 +1,121 @@
+snippet h1
+  # ${1:}
+snippet h2
+  ## ${1:}
+snippet h3
+  ### ${1:}
+snippet h4
+  #### ${1:}
+snippet h5
+  ##### ${1:}
+snippet c
+  \`\`\`${1:n}
+  ${2:}
+  \`\`\`
+snippet cerb
+  \`\`\`erb
+  ${1:}
+  \`\`\`
+snippet chaml
+  \`\`\`haml
+  ${1:}
+  \`\`\`
+snippet chtml
+  \`\`\`html
+  ${1:}
+  \`\`\`
+snippet cjavascript
+  \`\`\`javascript
+  ${1:}
+  \`\`\`
+snippet cruby
+  \`\`\`ruby
+  ${1:}
+  \`\`\`
+snippet csh
+  \`\`\`sh
+  ${1:}
+  \`\`\`
+snippet cvim
+  \`\`\`vim
+  ${1:}
+  \`\`\`
+snippet ic
+  \`${1:}\`
+snippet b
+  - ${1:}
+  - ${2:}
+  - ${3:}
+snippet bb
+    - ${1:}
+    - ${2:}
+    - ${3:}
+snippet bbb
+      - ${1:}
+      - ${2:}
+      - ${3:}
+snippet footnote
+  ${1:word:}[^$1]
+
+  [$1]: ${2:text}
+snippet box
+  \begin{aside}
+  \heading{${1:headline}}
+
+  ${2:}
+
+  \end{aside}
+snippet label
+  \label{sec:${1:n}}
+snippet ref
+  ~\ref{sec:${1:n}}
+snippet l
+  1. ${1:}
+  2. ${2:}
+  3. ${3:}
+snippet ll
+    1. ${1:}
+    2. ${2:}
+    3. ${3:}
+snippet lll
+      1. ${1:}
+      2. ${2:}
+      3. ${3:}
+snippet bq
+  > ${1:}
+  > ${2:}
+  > ${3:}
+snippet image
+  ![${1:n}](${2:u} "${3:a}")
+snippet bf
+  **${1:}** ${2:}
+snippet it
+  *${1:}* ${2:}
+snippet lk
+  [${1:}](${2:} "$1")
+snippet table
+  <table>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+# these snippets can only be used in jekyll projects with special plugins
+snippet blockquote
+  <blockquote>
+    <p>${1:n}</p>
+    <strong>${2:n}</strong>
+  </blockquote>
+snippet fancycaption
+  <a href="${1:}" title="${2:t}" class="fancybox"><img src="${3:}" class="big center" alt="$2"/></a>
+  <div class="caption">$2</div>
+snippet fancy
+  <a href="${1:}" title="${2:t}" class="fancybox"><img src="${3:}" class="big center" alt="$2"/></a>
+snippet fancynormal
+  <img src="${2:}" class="big center" alt="${1:t}"/>
+  <div class="caption">"$1"</div>

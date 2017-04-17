@@ -8,6 +8,12 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'DataWraith/auto_mkdir', 'v1.0.0'
+Plug 'cohama/lexima.vim', '85cfff9'
+Plug 'Shougo/neosnippet.vim', 'affc71b'
+Plug 'Shougo/neoyank.vim', 'ad56eca'
+Plug 'Shougo/unite.vim', '97e63411'
+" Seems like deunite don't need this plugin
+"Plug 'Shougo/vimproc.vim', { 'commit': '25cb83f', 'do': 'make' }
 
 " Initialize plugin system
 call plug#end()
