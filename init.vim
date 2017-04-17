@@ -63,7 +63,81 @@ call plug#end()
 
 " General settings {{{
 
+set laststatus=2
+set number                                  " display line numbers
+set modeline                                " check first lines of files for style information
+set noerrorbells                            " turn of nasty error sounds
+set autoindent                              " Copy indent from current line when starting a new line
+set autoread                                " automatically read a file that has changed on disk
+set showbreak=↪                             " show the symbol for wrapped lines
+set history=5000                            " number of lines for command line history
+set showmode                                " show the current modal mode
+set showcmd                                 " show (partial) command in the last line of the screen
+set nowarn                                  " do not warn, when shell command update the file you edit in Vim
+set backspace=indent,eol,start              " allow backspacing over everything in insert mode
+set ch=1                                    " height of the command line at the bottom
+set ruler                                   " show the line and column number of the cursor position
+set numberwidth=2                           " using only 2 column for number line presentation
+set lazyredraw                              " no window redrawing during operations like macros, registers, ...
+set ttyfast                                 " fast terminal connection, more characters will be sent to the screen
+set splitbelow                              " splitting a window will put the new window below the current one
+set splitright                              " splitting a window will put the new window right the current one
+set synmaxcol=0                             " better scrolling for long lines
+set spelllang=en_us                         " default language for spell checker
+set spellfile=$HOME/.vim/spell/en.utf-8.add " spell file for additional correct English words
+set spellsuggest=best,5                     " only display the 5 best suggestions
+set viminfo='1000000,f1                     " save marks for 1 million files ('1000000), save global marks
+set infercase                               " autocompletion in Insert Mode is case sensitive
+set shortmess+=I                            " don't show startup message when opening Vim without a file
+set noautochdir                             " don't change the current working directory when opening a new file
+set cpoptions+=$                            " `cw` put a $ at the end instead of pure deletion
+set completeopt=longest,menuone,preview,    " modes for auto completion popup
+                                            " longest - only insert the longest common text of the matches.
+                                            " menuone - use the popup menu also when there is only one match.
+                                            " preview - show extra information about the currently selected
+set tabstop=2                               " how many columns a tab counts
+set shiftwidth=2                            " how many columns text is indented with the indent operations (<< and >>)
+set softtabstop=2                           " how many columns
+set expandtab                               " hitting tab in insert mode will produce number in spaces instead of tabs
+set textwidth=100                           " maximum of text that is being inserted
+set fillchars=""                            " get rid of silly characters in separators in the CMD
+set incsearch " highlight search after you type it
+" so /foo matches FOO and fOo, but /FOO only matches the former)
+set ignorecase                              " case insensitive search
+set smartcase                               " canceling out ignore for uppercase letter in search
+set nohlsearch
+set noswapfile                              " don't save swap files
+
+set wrap      " when lines are longer the width of the window they will wrapped
+set linebreak " wrap at a character in the breakat option
+
+" external tool when using grep
+if executable('pt')
+  set grepprg=pt
+elseif executable('ag')
+  set grepprg=ag
+endif
+
+if has('cryptmethod')
+  set cryptmethod=blowfish                    " encryption algorithm
+endif
+
+" Remove Vim' automatic comment prefixing (http://tilvim.com/2013/12/30/remove-comment-prefix-2.html)
+autocmd FileType * setlocal formatoptions-=r formatoptions-=o
+
 let mapleader = "," " change the leader to be a comma vs. backslash if not given
+
+let &scrolloff=999-&scrolloff " current view is always centered
+
+
+let file = expand("%")
+if file=~"padrinocasts.md"
+    colorscheme delek
+else
+    colorscheme github
+endif
+
+set tags=tags,./tags,gems.tags,./gems.tags
 
 " }}}
 
