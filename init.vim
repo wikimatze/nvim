@@ -24,3 +24,18 @@ call plug#end()
 let mapleader = "," " change the leader to be a comma vs. backslash if not given
 
 " }}}
+
+" Plugin settings {{{
+
+ru! plugin_settings/*.vim
+
+" }}}
+" Mappings {{{
+
+ru mappings/esc_with_jk.vim               " emulate ESC with jk
+ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
+ru mappings/neoyank.vim                   " <leader>y search the yank history
+ru mappings/ranger.vim                    " F2 will call :Ranger
+
+" }}}
+
