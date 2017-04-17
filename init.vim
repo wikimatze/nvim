@@ -89,7 +89,6 @@ set tabstop=2                               " how many columns a tab counts
 set shiftwidth=2                            " how many columns text is indented with the indent operations (<< and >>)
 set softtabstop=2                           " how many columns
 set expandtab                               " hitting tab in insert mode will produce number in spaces instead of tabs
-set textwidth=100                           " maximum of text that is being inserted
 set fillchars=""                            " get rid of silly characters in separators in the CMD
 set incsearch " highlight search after you type it
 " so /foo matches FOO and fOo, but /FOO only matches the former)
