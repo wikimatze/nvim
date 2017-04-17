@@ -64,7 +64,6 @@ call plug#end()
 " General settings {{{
 
 set number                                  " display line numbers
-set modeline                                " check first lines of files for style information
 set noerrorbells                            " turn of nasty error sounds
 set autoindent                              " Copy indent from current line when starting a new line
 set autoread                                " automatically read a file that has changed on disk
