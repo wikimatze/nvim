@@ -69,8 +69,8 @@ set autoindent                              " Copy indent from current line when
 set autoread                                " automatically read a file that has changed on disk
 set autowrite                               " automatically write a file when moving to another buffer
 set showbreak=↪                             " show the symbol for wrapped lines
-set history=5000                            " number of lines for command line history
 set showmode                                " show the current modal mode
+set history=500                             " number of lines for command line history
 set showcmd                                 " show (partial) command in the last line of the screen
 set nowarn                                  " do not warn, when shell command update the file you edit in Vim
 set backspace=indent,eol,start              " allow backspacing over everything in insert mode
