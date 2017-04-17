@@ -78,7 +78,6 @@ set synmaxcol=0                             " better scrolling for long lines
 set spelllang=en_us                         " default language for spell checker
 set spellfile=$HOME/.vim/spell/en.utf-8.add " spell file for additional correct English words
 set spellsuggest=best,5                     " only display the 5 best suggestions
-set viminfo='1000000,f1                     " save marks for 1 million files ('1000000), save global marks
 set infercase                               " autocompletion in Insert Mode is case sensitive
 set shortmess+=I                            " don't show startup message when opening Vim without a file
 set noautochdir                             " don't change the current working directory when opening a new file
