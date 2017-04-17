@@ -75,7 +75,7 @@ set numberwidth=2                           " using only 2 column for number lin
 set splitbelow                              " splitting a window will put the new window below the current one
 set splitright                              " splitting a window will put the new window right the current one
 set spelllang=en_us                         " default language for spell checker
-set spellfile=$HOME/.vim/spell/en.utf-8.add " spell file for additional correct English words
+set spellfile=$HOME/.config/nvim/spell/en.utf-8.add " spell file for additional correct English words
 set spellsuggest=best,5                     " only display the 5 best suggestions
 set infercase                               " autocompletion in Insert Mode is case sensitive
 set shortmess+=I                            " don't show startup message when opening Vim without a file
