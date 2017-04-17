@@ -17,3 +17,10 @@ Plug 'Shougo/unite.vim', '97e63411'
 
 " Initialize plugin system
 call plug#end()
+
+
+" General settings {{{
+
+let mapleader = "," " change the leader to be a comma vs. backslash if not given
+
+" }}}
