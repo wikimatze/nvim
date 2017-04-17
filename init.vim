@@ -72,7 +72,6 @@ set showbreak=↪                             " show the symbol for wrapped line
 set history=500                             " number of lines for command line history
 set nowarn                                  " do not warn, when shell command update the file you edit in Vim
 set backspace=indent,eol,start              " allow backspacing over everything in insert mode
-set ruler                                   " show the line and column number of the cursor position
 set numberwidth=2                           " using only 2 column for number line presentation
 set lazyredraw                              " no window redrawing during operations like macros, registers, ...
 set ttyfast                                 " fast terminal connection, more characters will be sent to the screen
