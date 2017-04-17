@@ -4,6 +4,19 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
+
+" Get thesaurus (need for vim-lexical)
+if empty(glob('~/.config/nvim/thesaurus'))
+  " create directory
+  silent !mkdir ~/.config/nvim/thesaurus
+  " get german thesaurus
+  silent !wget https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip -O ~/.config/nvim/thesaurus/mthesaur.zip && unzip ~/.config/nvim/thesaurus/mthesaur.zip -d ~/.config/nvim/thesaurus/
+  " get english thesaurus
+  silent !wget https://raw.githubusercontent.com/statico/dotfiles/master/.vim/mthes10/mthesaur.txt -O ~/.config/nvim/thesaurus/mthesaur.txt && sed -i 's/,/;/g' ~/.config/nvim/thesaurus/mthesaur.txt
+  silent !rm ~/.config/nvim/thesaurus/mthesaur.zip ~/.config/nvim/thesaurus/LICENSE.txt
+endif
+
+
 " Specify a directory for plugins
 call plug#begin('~/.config/nvim/plugged')
 
@@ -28,6 +41,7 @@ Plug 'jreybert/vimagit', '1.7.1'
 Plug 'junegunn/vader.vim', '9c1d971'
 Plug 'tpope/vim-markdown', '0b92a7d'
 
+Plug 'reedes/vim-lexical', 'fb42333'
 " Initialize plugin system
 call plug#end()
 
