@@ -26,6 +26,7 @@ Plug 'jamessan/vim-gnupg', '5103285'
 Plug 'janko-m/vim-test', '6ebbd35'
 Plug 'jreybert/vimagit', '1.7.1'
 Plug 'junegunn/vader.vim', '9c1d971'
+Plug 'tpope/vim-markdown', '0b92a7d'
 
 " Initialize plugin system
 call plug#end()
