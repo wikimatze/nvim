@@ -147,6 +147,16 @@ let g:netrw_winsize = 25
 autocmd BufNewFile,BufRead *.md syntax match Comment /\%^---\_.\{-}---$/
 
 " }}} 
+" Settings for displaying list chars {{{
+
+" trails - white spaces
+" extends: shows when a file name goes out the view (you have to scroll right in NERDTree)
+" precedes: shows when a file name goes out the view (you have to scroll left like in NERDTree)
+" nbsp: character to show for a non-breakable space
+set listchars=tab:▸\ ,extends:❯,precedes:❮,trail:.,nbsp:~
+set list " enable the predefined symbols for tabs, trails, ...
+
+" }}} 
 " Plugin settings {{{
 
 ru! plugin_settings/*.vim
