@@ -142,7 +142,11 @@ let g:netrw_altv = 1
 let g:netrw_winsize = 25
 
 " }}} 
+" Detect YAML front matter parts in markdown files as comments {{{
 
+autocmd BufNewFile,BufRead *.md syntax match Comment /\%^---\_.\{-}---$/
+
+" }}} 
 " Plugin settings {{{
 
 ru! plugin_settings/*.vim
