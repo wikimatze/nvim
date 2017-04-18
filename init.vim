@@ -95,8 +95,6 @@ set smartcase                               " canceling out ignore for uppercase
 set nohlsearch
 set noswapfile                              " don't save swap files
 
-set linebreak " wrap at a character in the breakat option
-
 " external tool when using grep
 if executable('pt')
   set grepprg=pt
