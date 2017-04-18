@@ -117,9 +117,24 @@ else
     colorscheme github
 endif
 
-set tags=tags,./tags,gems.tags,./gems.tags
+set tags=tags,./tags,gems.tags,./gems.tags 
+
+" }}} 
+" Backups {{{
+
+if !isdirectory($HOME . '/.config/nvim/backup')
+  call mkdir($HOME . '/.config/nvim/backup')
+endif
+
+set backupext=~                 " backup file extension
+set backupdir=$HOME/.config/nvim/backup " directory of backups
+set backupcopy=yes              " keep attributes of the original file
+set backup                      " save files after close
+set writebackup                 " make a backup of the original file when writing
 
 " }}}
+
+
 
 " Plugin settings {{{
 
