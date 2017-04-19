@@ -56,6 +56,8 @@ Plug 'vim-ruby/vim-ruby', '5b74d40'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
 
+Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
+
 " Plug 'wellle/tmux-complete.vim', '5d371f2'
 " Plug 'wikimatze/vim-radio'
 
@@ -237,6 +239,7 @@ ru mappings/commandline.vim               " <C-b> go char left, <C-f> go char ri
 ru mappings/copy_paste_clipboard.vim      " <C-c> for copy, <leader-C-v> to paste from clipboard in normal mode
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
 ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
+ru mappings/fzf.vim                       " <C-p> start file search
 ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
 ru mappings/moving_wrapped_lines.vim      " Use hjkl in wrapped-lined files
 ru mappings/neoyank.vim                   " <leader>y search the yank history
