@@ -234,7 +234,7 @@ ru macros/matchit.vim " enable better matching for % command
 " Mappings {{{
 
 ru mappings/commandline.vim               " <C-b> go char left, <C-f> go char right, <C-p> go previews command, <C-n> go next command
-ru mappings/copy_to_clipboard.vim         " <C-c> for copy
+ru mappings/copy_paste_clipboard.vim      " <C-c> for copy, <leader-C-v> to paste from clipboard in normal mode
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
 ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
 ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
