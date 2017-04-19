@@ -240,6 +240,8 @@ ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file spec
 ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
 ru mappings/moving_wrapped_lines.vim      " Use hjkl in wrapped-lined files
 ru mappings/neoyank.vim                   " <leader>y search the yank history
+ru mappings/pry.vim                       " ,pi toggles 'binding pry'
+ru mappings/quickediting.vim              " ,ba; ,bm; ,br; ,ev to edit files of vim repos
 ru mappings/ranger.vim                    " F2 will call :Ranger
 ru mappings/vim_test.vim                  " <leader>t :TestNearest, <leader>T :TestFile, <leader>a :TestSuite, <leader>l :TestLastVisit, <leader>g :TestVisit
 
