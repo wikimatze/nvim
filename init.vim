@@ -117,9 +117,9 @@ else
     colorscheme github
 endif
 
-set tags=tags,./tags,gems.tags,./gems.tags 
+set tags=tags,./tags,gems.tags,./gems.tags
 
-" }}} 
+" }}}
 " Backups {{{
 
 if !isdirectory($HOME . '/.config/nvim/backup')
@@ -141,12 +141,12 @@ let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
 
-" }}} 
+" }}}
 " Detect YAML front matter parts in markdown files as comments {{{
 
 autocmd BufNewFile,BufRead *.md syntax match Comment /\%^---\_.\{-}---$/
 
-" }}} 
+" }}}
 " Settings for displaying list chars {{{
 
 " trails - white spaces
@@ -156,7 +156,20 @@ autocmd BufNewFile,BufRead *.md syntax match Comment /\%^---\_.\{-}---$/
 set listchars=tab:▸\ ,extends:❯,precedes:❮,trail:.,nbsp:~
 set list " enable the predefined symbols for tabs, trails, ...
 
-" }}} 
+" }}}
+" Settings for wildmenu completion {{{
+
+if has("wildmenu")
+  set wildmenu                           " enable a navigable list of suggestions
+  set wildmode=full                      " zsh full-match, starts over with first match after last match reached
+  set wig+=.git,.hg,.svn                 " version control
+  set wig+=*.bmp,*.gif,*.ico,*.jpg,*.png " images
+  set wig+=*.aux,*.out,*.toc             " LaTeX intermediate files
+  set wig+=.DS_Store                     " Mac
+  set wig+=*~,*.swp,*.tmp                " tmp and backup files
+endif
+
+" }}}
 " Plugin settings {{{
 
 ru! plugin_settings/*.vim
