@@ -5,6 +5,8 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 
+
+
 " Get thesaurus (need for vim-lexical)
 if empty(glob('~/.config/nvim/thesaurus'))
   " create directory
@@ -169,6 +171,59 @@ if has("wildmenu")
   set wig+=*~,*.swp,*.tmp                " tmp and backup files
 endif
 
+" }}}
+" Functions {{{
+" Trailing whitespace removal {{{
+fu! <SID>StripTrailingWhitespaces()
+  " preparation: save last search, and cursor position.
+  let _s=@/
+  let l = line(".")
+  let c = col(".")
+  " do the business:
+  %s/\s\+$//e
+  " Clean up: restore previous search history, and cursor position
+  let @/=_s
+  call cursor(l, c)
+endf
+
+" when file is saved, call the function to remove trailing whitespace
+au BufWritePre * :call <SID>StripTrailingWhitespaces()
+" }}}
+" Insert date in the form yyyy-mm-dd at the end of a line, <F5> {{{
+fu! InsertSpaceDate()
+  let @x = " "
+  let @x = @x . strftime("%Y-%m-%d")
+  normal! "xp
+  silent exec line(".") . "s/TODO/DONE"
+endf
+
+no <silent> <F5> $:call InsertSpaceDate() <CR>
+ru functions/insert_spacedate.vim
+" }}}
+" Close all buffers except the current one :Bdeleteonly {{{
+" Found solution under
+" http://vim.1045645.n5.nabble.com/Close-all-buffers-except-the-one-you-re-in-td1183357.html
+function! Buflist()
+    redir => bufnames
+    silent ls
+    redir END
+    let list = []
+    for i in split(bufnames, "\n")
+        let buf = split(i, '"' )
+        call add(list, buf[-2])
+    endfor
+    return list
+endfunction
+
+function! Bdeleteonly()
+    let list = filter(Buflist(), 'v:val != bufname("%")')
+    for buffer in list
+        exec "bdelete ".buffer
+    endfor
+endfunction
+
+command! BdelOnly :silent call Bdeleteonly()
+" }}}
 " }}}
 " Plugin settings {{{
 
