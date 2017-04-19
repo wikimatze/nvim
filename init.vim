@@ -228,10 +228,12 @@ command! BdelOnly :silent call Bdeleteonly()
 " Plugin settings {{{
 
 ru! plugin_settings/*.vim
+ru macros/matchit.vim " enable better matching for % command
 
 " }}}
 " Mappings {{{
 
+ru mappings/commandline.vim               " <C-b> go char left, <C-f> go char right, <C-p> go previews command, <C-n> go next command
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
 ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
 ru mappings/neoyank.vim                   " <leader>y search the yank history
