@@ -237,6 +237,8 @@ ru mappings/commandline.vim               " <C-b> go char left, <C-f> go char ri
 ru mappings/copy_to_clipboard.vim         " <C-c> for copy
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
 ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
+ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
+ru mappings/moving_wrapped_lines.vim      " Use hjkl in wrapped-lined files
 ru mappings/neoyank.vim                   " <leader>y search the yank history
 ru mappings/ranger.vim                    " F2 will call :Ranger
 ru mappings/vim_test.vim                  " <leader>t :TestNearest, <leader>T :TestFile, <leader>a :TestSuite, <leader>l :TestLastVisit, <leader>g :TestVisit
