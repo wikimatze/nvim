@@ -237,6 +237,7 @@ ru macros/matchit.vim " enable better matching for % command
 " Settings {{{
 
 ru settings/auto_line_return.vim " always return to the last cursors position for a file
+ru settings/filetype_setters.vim " set filetypes to certain files
 
 " }}}
 " Mappings {{{
