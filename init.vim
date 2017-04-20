@@ -4,9 +4,6 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
-
-
-
 " Get thesaurus (need for vim-lexical)
 if empty(glob('~/.config/nvim/thesaurus'))
   " create directory
@@ -58,9 +55,13 @@ Plug 'xolox/vim-notes', '0.33.4'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
 
-" Plug 'wellle/tmux-complete.vim', '5d371f2'
 " Plug 'wikimatze/vim-radio'
 
+
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/neco-vim', 'c58ce68'          " vimscript completion
+Plug 'fishbullet/deoplete-ruby', '83cf22b' " ruby completion
+Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
 
 " Initialize plugin system
 call plug#end()
