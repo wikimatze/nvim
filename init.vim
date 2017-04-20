@@ -55,6 +55,7 @@ Plug 'xolox/vim-notes', '0.33.4'
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'unblevable/quick-scope', 'd5882cb'
 
 " Plug 'wikimatze/vim-radio'
 
