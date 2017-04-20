@@ -52,6 +52,7 @@ Plug 'tyru/caw.vim', 'ba5d4cc'
 Plug 'vim-ruby/vim-ruby', '5b74d40'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
+Plug 'vim-scripts/IndexedSearch', '500a64a'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
 
@@ -264,6 +265,24 @@ nn <silent> <leader>s :set spell!<CR>
 
 " Folding Toggling with <space>
 nn <space> za
+
+" }}}
+
+
+
+" Settings for autocmpletion in insert mode <C-n> {{{
+
+" set autocompletion when CTRL-P or CTRL-N are used.
+" It is also used for whole-line
+" . ... current buffer
+" i ... current and included files
+" b ... other loaded buffers that are in the buffer list
+" w ... buffers from other windows
+" u ... scan unloaded buffers that are in the buffer list
+" U ... scan buffers that are not in the buffer list
+" t ... tag completion
+set complete=.,i,b,w,u,U,t
+set showfulltag " when completing by tag, show the whole tag, not just the function name
 
 " }}}
 
