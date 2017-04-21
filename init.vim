@@ -22,9 +22,7 @@ Plug 'DataWraith/auto_mkdir', 'v1.0.0'
 Plug 'cohama/lexima.vim', '85cfff9'
 Plug 'Shougo/neosnippet.vim', 'affc71b'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
-Plug 'Shougo/unite.vim', '97e63411'
-" Seems like deunite don't need this plugin
-"Plug 'Shougo/vimproc.vim', { 'commit': '25cb83f', 'do': 'make' }
+Plug 'Shougo/denite.nvim', '807c952'
 Plug 'alvan/vim-closetag', '6cfc989'
 Plug 'christoomey/vim-tmux-navigator', '2fc1ed4'
 Plug 'francoiscabrol/ranger.vim', 'b0b8566'
