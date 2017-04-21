@@ -53,6 +53,7 @@ Plug 'vim-ruby/vim-ruby', '5b74d40'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
 Plug 'vim-scripts/IndexedSearch', '500a64a'
+Plug 'shime/vim-livedown', { 'tag': 'v1.0.4', 'do': 'sudo npm install -g livedown' }
 
 Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'unblevable/quick-scope', 'd5882cb'
