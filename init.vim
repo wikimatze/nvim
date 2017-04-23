@@ -43,7 +43,6 @@ Plug 'mhinz/vim-grepper', '1ec1b33'
 Plug 'tpope/vim-markdown', '0b92a7d'
 Plug 'reedes/vim-lexical', 'fb42333'
 Plug 'reedes/vim-litecorrect', '8d5f233'
-Plug 'scrooloose/syntastic', '3.8.0'
 Plug 'tpope/vim-surround', 'e49d6c2'
 Plug 'tyru/caw.vim', 'ba5d4cc'
 Plug 'vim-ruby/vim-ruby', '5b74d40'
@@ -51,6 +50,7 @@ Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'shime/vim-livedown', { 'tag': 'v1.0.4', 'do': 'sudo npm install -g livedown' }
+Plug 'w0rp/ale', 'c1a2d26'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'unblevable/quick-scope', 'd5882cb'
