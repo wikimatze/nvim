@@ -18,7 +18,6 @@ endif
 " Specify a directory for plugins
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'DataWraith/auto_mkdir', 'v1.0.0'
 Plug 'cohama/lexima.vim', '85cfff9'
 Plug 'Shougo/neosnippet.vim', 'affc71b'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
