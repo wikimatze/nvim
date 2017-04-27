@@ -266,10 +266,7 @@ nn <silent> <leader>s :set spell!<CR>
 nn <space> za
 
 " }}}
-
-
-
-" Settings for autocmpletion in insert mode <C-n> {{{
+" Settings for autocompletion in insert mode <C-n> {{{
 
 " set autocompletion when CTRL-P or CTRL-N are used.
 " It is also used for whole-line
