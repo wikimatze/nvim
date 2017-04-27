@@ -27,35 +27,34 @@ Plug 'christoomey/vim-tmux-navigator', '2fc1ed4'
 Plug 'francoiscabrol/ranger.vim', 'b0b8566'
 Plug 'tpope/vim-fugitive', 'aac85a2'
 Plug 'rbgrouleff/bclose.vim' " need for closing ranger with a simple 'q'
-Plug 'gregsexton/gitv', { 'commit': 'v1.3.1', 'on': ['Gitv']} " needs fugitive
+Plug 'gregsexton/gitv', { 'commit': 'v1.3.1', 'on': ['Gitv'] } " needs fugitive
 Plug 'itchyny/lightline.vim', '15509c6'
 Plug 'jamessan/vim-gnupg', '5103285'
 Plug 'janko-m/vim-test', '6ebbd35'
-Plug 'jreybert/vimagit', '1.7.1'
-Plug 'junegunn/vader.vim', '9c1d971'
-Plug 'lervag/vimtex', '402a3fb'
+Plug 'jreybert/vimagit', {'commit': '1.7.1', 'on': ['Magit'] }
+Plug 'junegunn/vader.vim', { 'commit': '9c1d971', 'for': 'vim' }
+Plug 'lervag/vimtex', {'commit': '402a3fb', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', 'e220e9b'
 Plug 'majutsushi/tagbar', '959f487'
 Plug 'matze/vim-move', 'fd60f3f'
 Plug 'mbbill/undotree', 'ad08a88'
 Plug 'mhinz/vim-grepper', '1ec1b33'
-Plug 'tpope/vim-markdown', '0b92a7d'
+Plug 'tpope/vim-markdown', {'commit': '0b92a7d', 'for': 'markdown' }
 Plug 'reedes/vim-lexical', 'fb42333'
 Plug 'reedes/vim-litecorrect', '8d5f233'
 Plug 'tpope/vim-surround', 'e49d6c2'
 Plug 'tyru/caw.vim', 'ba5d4cc'
-Plug 'vim-ruby/vim-ruby', '5b74d40'
+Plug 'vim-ruby/vim-ruby', { 'commit': '5b74d40', 'for': 'ruby' }
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
 Plug 'vim-scripts/IndexedSearch', '500a64a'
-Plug 'shime/vim-livedown', { 'tag': 'v1.0.4', 'do': 'sudo npm install -g livedown' }
+Plug 'shime/vim-livedown', { 'tag': 'v1.0.4', 'for': 'markdown', 'do': 'sudo npm install -g livedown' }
 Plug 'w0rp/ale', '5d5ba2a'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'unblevable/quick-scope', 'd5882cb'
 
 " Plug 'wikimatze/vim-radio'
-
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neco-vim', 'c58ce68'          " vimscript completion
