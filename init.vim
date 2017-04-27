@@ -50,6 +50,7 @@ Plug 'xolox/vim-notes', '0.33.4'
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'shime/vim-livedown', { 'tag': 'v1.0.4', 'for': 'markdown', 'do': 'sudo npm install -g livedown' }
 Plug 'w0rp/ale', '5d5ba2a'
+Plug 'brooth/far.vim', 'e6b298d'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'unblevable/quick-scope', 'd5882cb'
@@ -243,8 +244,9 @@ ru settings/filetype_setters.vim " set filetypes to certain files
 ru mappings/commandline.vim               " <C-b> go char left, <C-f> go char right, <C-p> go previews command, <C-n> go next command
 ru mappings/copy_paste_clipboard.vim      " <C-c> for copy, <leader-C-v> to paste from clipboard in normal mode
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
-ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
+ru mappings/far.vim                       " q will close the Far window
 ru mappings/fzf.vim                       " <C-p> start file search
+ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
 ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
 ru mappings/moving_wrapped_lines.vim      " Use hjkl in wrapped-lined files
 ru mappings/neoyank.vim                   " <leader>y search the yank history
