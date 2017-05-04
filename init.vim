@@ -24,7 +24,7 @@ Plug 'Shougo/neoyank.vim', 'ad56eca'
 Plug 'Shougo/denite.nvim', '807c952'
 Plug 'alvan/vim-closetag', '6cfc989'
 Plug 'christoomey/vim-tmux-navigator', '2fc1ed4'
-Plug 'francoiscabrol/ranger.vim', 'b0b8566'
+Plug 'francoiscabrol/ranger.vim', '902bb5c'
 Plug 'tpope/vim-fugitive', 'aac85a2'
 Plug 'rbgrouleff/bclose.vim' " need for closing ranger with a simple 'q'
 Plug 'gregsexton/gitv', { 'commit': 'v1.3.1', 'on': ['Gitv'] } " needs fugitive
