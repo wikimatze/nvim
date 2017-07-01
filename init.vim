@@ -19,7 +19,7 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'cohama/lexima.vim', '85cfff9'
-Plug 'Shougo/neosnippet.vim', '9996520'
+Plug 'Shougo/neosnippet.vim', '867149c'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
 Plug 'Shougo/denite.nvim', '807c952'
 Plug 'alvan/vim-closetag', '6cfc989'
@@ -64,6 +64,7 @@ Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
 
 " Initialize plugin system
 call plug#end()
+
 
 " General settings {{{
 
