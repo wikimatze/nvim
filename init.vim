@@ -255,6 +255,7 @@ ru mappings/notes.vim                     " F7 will open notes with the collect 
 ru mappings/neoyank.vim                   " <leader>y search the yank history
 ru mappings/pry.vim                       " ,pi toggles 'binding pry'
 ru mappings/quickediting.vim              " ,ba; ,bm; ,br; ,ev to edit files of vim repos
+ru mappings/quickfix_window.vim           " q will close the quickfix window
 ru mappings/ranger.vim                    " F2 will call :Ranger
 ru mappings/tagbar.vim                    " F3 will call :TagbarToggle
 ru mappings/terminal.vim                   " F3 will call :TagbarToggle
