@@ -19,47 +19,47 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'alvan/vim-closetag', 'f9fd067'
-Plug 'brooth/far.vim', 'e6b298d'
+Plug 'brooth/far.vim', '3376dc5'
 Plug 'christoomey/vim-tmux-navigator', '3e83ddc'
 Plug 'cohama/lexima.vim', '85cfff9'
 Plug 'francoiscabrol/ranger.vim', 'b77a534'
 Plug 'gregsexton/gitv', { 'commit': '14fcbf5', 'on': ['Gitv'] }
 Plug 'itchyny/lightline.vim', 'ff74d65'
-Plug 'jamessan/vim-gnupg', '5103285'
-Plug 'janko-m/vim-test', '6ebbd35'
+Plug 'jamessan/vim-gnupg', 'e7b6648'
+Plug 'janko-m/vim-test', '1edd7be'
 Plug 'jreybert/vimagit', {'commit': '595af14', 'on': ['Magit'] }
-Plug 'junegunn/vader.vim', { 'commit': '9c1d971', 'for': 'vim' }
-Plug 'lervag/vimtex', {'commit': '402a3fb', 'for': 'tex' }
-Plug 'ludovicchabant/vim-gutentags', 'e220e9b'
-Plug 'majutsushi/tagbar', '959f487'
-Plug 'matze/vim-move', 'fd60f3f'
+Plug 'junegunn/vader.vim', { 'commit': '654bbf7', 'for': 'vim' }
+Plug 'lervag/vimtex', {'commit': 'c7a6d2e', 'for': 'tex' }
+Plug 'ludovicchabant/vim-gutentags', 'c400613'
+Plug 'majutsushi/tagbar', 'f579273'
+Plug 'matze/vim-move', '3409db6'
 Plug 'mbbill/undotree', 'ad08a88'
-Plug 'mhinz/vim-grepper', '1ec1b33'
+Plug 'mhinz/vim-grepper', 'a534baf'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'reedes/vim-lexical', 'fb42333'
 Plug 'reedes/vim-litecorrect', '8d5f233'
 Plug 'shime/vim-livedown', { 'tag': 'v1.0.4', 'for': 'markdown', 'do': 'sudo npm install -g livedown' }
 Plug 'tpope/vim-fugitive', 'be2ff98'
-Plug 'tpope/vim-markdown', {'commit': '0b92a7d', 'for': 'markdown' }
+Plug 'tpope/vim-markdown', {'commit': 'a7dbc31', 'for': 'markdown' }
 Plug 'tpope/vim-surround', 'e49d6c2'
-Plug 'tyru/caw.vim', 'ba5d4cc'
-Plug 'vim-ruby/vim-ruby', { 'commit': '5b74d40', 'for': 'ruby' }
+Plug 'tyru/caw.vim', 'd4a4a73'
+Plug 'unblevable/quick-scope', 'd5882cb'
+Plug 'vim-ruby/vim-ruby', { 'commit': '074200f', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
-Plug 'w0rp/ale', '5d5ba2a'
+Plug 'w0rp/ale', '0d8be55'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
 Plug 'Shougo/denite.nvim', '6ba9a00'
 Plug 'Shougo/neosnippet.vim', '867149c'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
 
-Plug 'junegunn/fzf', { 'tag': '0.16.6', 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'unblevable/quick-scope', 'd5882cb'
+Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all' }
 
 " Plug 'wikimatze/vim-radio'
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/neco-vim', 'c58ce68'          " vimscript completion
-Plug 'fishbullet/deoplete-ruby', '83cf22b' " ruby completion
+Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
+Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
 Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
 
 " Initialize plugin system
