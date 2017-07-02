@@ -12,7 +12,7 @@ nn <silent> <expr> $ ScreenMovement("$")
 " needed by for files with wrapped-lines
 fu! ScreenMovement(movement)
   if &wrap
-    return "g" . a:movement
+    return 'g' . a:movement
   else
     return a:movement
   endif

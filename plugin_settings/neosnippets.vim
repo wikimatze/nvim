@@ -18,7 +18,7 @@ endif
 
 " solving issue with neosnippet-snippets can not be found issue
 " https://github.com/spf13/spf13-vim/issues/539
-let g:neosnippet#disable_runtime_snippets = { "_": 1, }
+let g:neosnippet#disable_runtime_snippets = { '_': 1, }
 
 
 " Tell Neosnippet about the other snippets

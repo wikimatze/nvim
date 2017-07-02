@@ -4,8 +4,8 @@ let g:vimtex_view_method = 'zathura'
 let g:vimtex_fold_enabled = 1
 " specify which areas should be detected for folding
 let g:vimtex_fold_sections = [
-      \ "chapter", "section",
-      \ "subsection", "subsubsection"
+      \ 'chapter', 'section',
+      \ 'subsection', 'subsubsection'
       \ ]
 let g:vimtex_fold_comments = 0 " don't fold comments
 
