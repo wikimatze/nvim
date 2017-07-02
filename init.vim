@@ -258,7 +258,7 @@ ru mappings/quickediting.vim              " ,ba; ,bm; ,br; ,ev to edit files of 
 ru mappings/quickfix_window.vim           " q will close the quickfix window
 ru mappings/ranger.vim                    " F2 will call :Ranger
 ru mappings/tagbar.vim                    " F3 will call :TagbarToggle
-ru mappings/terminal.vim                   " F3 will call :TagbarToggle
+ru mappings/terminal.vim                  " :T, :VT will open a split/vsplit with terminal, ESC ... exit terminal mode, <C-h|j|k|l> to move windows
 ru mappings/vim_test.vim                  " <leader>t :TestNearest, <leader>T :TestFile, <leader>a :TestSuite, <leader>l :TestLastVisit, <leader>g :TestVisit
 
 " ,d to copy the file path to clipboard, very handy for file name completion for vimbook
