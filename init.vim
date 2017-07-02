@@ -245,14 +245,14 @@ ru settings/filetype_setters.vim " set filetypes to certain files
 ru mappings/commandline.vim               " <C-b> go char left, <C-f> go char right, <C-p> go previews command, <C-n> go next command
 ru mappings/copy_paste_clipboard.vim      " <C-c> for copy, <leader-C-v> to paste from clipboard in normal mode
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
-ru mappings/grepper.vim                   " <C-n|C-p> will browser grep history, gs as a motion (e.g. gsW, or mark a text in visual and press gs)
 ru mappings/far.vim                       " q will close the Far window
 ru mappings/fzf.vim                       " <C-p> start file search
 ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
+ru mappings/grepper.vim                   " <C-n|C-p> will browser grep history, gs as a motion (e.g. gsW, or mark a text in visual and press gs)
 ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
 ru mappings/moving_wrapped_lines.vim      " Use hjkl in wrapped-lined files
-ru mappings/notes.vim                     " F7 will open notes with the collect file
 ru mappings/neoyank.vim                   " <leader>y search the yank history
+ru mappings/notes.vim                     " F7 will open notes with the collect file
 ru mappings/pry.vim                       " ,pi toggles 'binding pry'
 ru mappings/quickediting.vim              " ,ba; ,bm; ,br; ,ev to edit files of vim repos
 ru mappings/quickfix_window.vim           " q will close the quickfix window
