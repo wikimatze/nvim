@@ -100,6 +100,8 @@ set smartcase                               " canceling out ignore for uppercase
 set nohlsearch
 set noswapfile                              " don't save swap files
 
+set inccommand=split " open a split where you can see the substitutions interactive
+
 " external tool when using grep
 if executable('pt')
   set grepprg=pt
