@@ -2,7 +2,7 @@
 
 
 ```sh
-$ git clone https://github.com/wikimatze/nvim.git ~/.config
+$ git clone https://github.com/wikimatze/nvim.git ~/.config/nvim
 ```
 
 Next, start vim and run `:PlugInstall` - happy neo-vimming!
