@@ -103,6 +103,10 @@ set smartcase                               " canceling out ignore for uppercase
 set nohlsearch
 set noswapfile                              " don't save swap files
 
+
+" Prefer Neovim terminal insert mode to normal mode.
+autocmd BufEnter term://* startinsert
+
 set inccommand=split " open a split where you can see the substitutions interactive
 
 " external tool when using grep
