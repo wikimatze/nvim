@@ -105,7 +105,10 @@ set noswapfile                              " don't save swap files
 
 
 " Prefer Neovim terminal insert mode to normal mode.
-autocmd BufEnter term://* startinsert
+augroup terminal
+  autocmd BufEnter term://* startinsert
+augroup END
+
 
 set inccommand=split " open a split where you can see the substitutions interactive
 
@@ -117,7 +120,9 @@ elseif executable('ag')
 endif
 
 " Remove Vim' automatic comment prefixing (http://tilvim.com/2013/12/30/remove-comment-prefix-2.html)
-autocmd FileType * setlocal formatoptions-=r formatoptions-=o
+augroup comment_prefixing
+  autocmd FileType * setlocal formatoptions-=r formatoptions-=o
+augroup END
 
 let mapleader = "," " change the leader to be a comma vs. backslash if not given
 
@@ -199,7 +204,10 @@ fu! <SID>StripTrailingWhitespaces()
 endf
 
 " when file is saved, call the function to remove trailing whitespace
-au BufWritePre * :call <SID>StripTrailingWhitespaces()
+augroup whitespace_striping
+  autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
+augroup END
+
 " }}}
 " Insert date in the form yyyy-mm-dd at the end of a line, <F5> {{{
 fu! InsertSpaceDate()
