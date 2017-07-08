@@ -124,13 +124,13 @@ augroup comment_prefixing
   autocmd FileType * setlocal formatoptions-=r formatoptions-=o
 augroup END
 
-let mapleader = "," " change the leader to be a comma vs. backslash if not given
+let g:mapleader = ',' " change the leader to be a comma vs. backslash if not given
 
 let &scrolloff=999-&scrolloff " current view is always centered
 
 
-let file = expand("%")
-if file=~"padrinocasts.md"
+let g:file = expand('%')
+if g:file=~'padrinocasts.md'
     colorscheme delek
 else
     colorscheme github
@@ -178,7 +178,7 @@ set list " enable the predefined symbols for tabs, trails, ...
 " }}}
 " Settings for wildmenu completion {{{
 
-if has("wildmenu")
+if has('wildmenu')
   set wildmenu                           " enable a navigable list of suggestions
   set wildmode=full                      " zsh full-match, starts over with first match after last match reached
   set wig+=.git,.hg,.svn                 " version control
@@ -193,14 +193,14 @@ endif
 " Trailing whitespace removal {{{
 fu! <SID>StripTrailingWhitespaces()
   " preparation: save last search, and cursor position.
-  let _s=@/
-  let l = line(".")
-  let c = col(".")
+  let l:_s=@/
+  let l:l = line('.')
+  let l:c = col('.')
   " do the business:
   %s/\s\+$//e
   " Clean up: restore previous search history, and cursor position
-  let @/=_s
-  call cursor(l, c)
+  let @/=l:_s
+  call cursor(l:l, l:c)
 endf
 
 " when file is saved, call the function to remove trailing whitespace
@@ -211,10 +211,10 @@ augroup END
 " }}}
 " Insert date in the form yyyy-mm-dd at the end of a line, <F5> {{{
 fu! InsertSpaceDate()
-  let @x = " "
-  let @x = @x . strftime("%Y-%m-%d")
+  let @x = ' '
+  let @x = @x . strftime('%Y-%m-%d')
   normal! "xp
-  silent exec line(".") . "s/TODO/DONE"
+  silent exec line('.') . 's/TODO/DONE'
 endf
 
 no <silent> <F5> $:call InsertSpaceDate() <CR>
