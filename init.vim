@@ -29,7 +29,7 @@ Plug 'jamessan/vim-gnupg', 'e7b6648'
 Plug 'janko-m/vim-test', '1edd7be'
 Plug 'jreybert/vimagit', {'commit': '595af14', 'on': ['Magit'] }
 Plug 'junegunn/vader.vim', { 'commit': '654bbf7', 'for': 'vim' }
-Plug 'lervag/vimtex', {'commit': 'c7a6d2e', 'for': 'tex' }
+Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', 'c400613'
 Plug 'majutsushi/tagbar', 'f579273'
 Plug 'matze/vim-move', '3409db6'
@@ -49,7 +49,7 @@ Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'w0rp/ale', '0d8be55'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
-Plug 'Shougo/denite.nvim', '6ba9a00'
+Plug 'Shougo/denite.nvim', '56a9f17'
 Plug 'Shougo/neosnippet.vim', '867149c'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
 
