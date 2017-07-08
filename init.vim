@@ -224,21 +224,21 @@ ru functions/insert_spacedate.vim
 " Found solution under
 " http://vim.1045645.n5.nabble.com/Close-all-buffers-except-the-one-you-re-in-td1183357.html
 function! Buflist()
-    redir => bufnames
+    redir => l:bufnames
     silent ls
     redir END
-    let list = []
-    for i in split(bufnames, "\n")
-        let buf = split(i, '"' )
-        call add(list, buf[-2])
+    let l:list = []
+    for l:i in split(l:bufnames, "\n")
+        let l:buf = split(l:i, '"' )
+        call add(l:list, l:buf[-2])
     endfor
-    return list
+    return l:list
 endfunction
 
 function! Bdeleteonly()
-    let list = filter(Buflist(), 'v:val != bufname("%")')
-    for buffer in list
-        exec "bdelete ".buffer
+    let l:list = filter(Buflist(), 'v:val != bufname('%')')
+    for l:buffer in l:list
+        exec 'bdelete ' . l:buffer
     endfor
 endfunction
 
