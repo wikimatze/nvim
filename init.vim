@@ -57,9 +57,12 @@ Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all'
 
 " Plug 'wikimatze/vim-radio'
 
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
-Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
+if has('python3')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
+  Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
+endif
+
 Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
 
 " Initialize plugin system
