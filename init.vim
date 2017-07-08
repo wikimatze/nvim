@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 " Grab plug.vim if it does not exist
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
@@ -130,7 +132,7 @@ let &scrolloff=999-&scrolloff " current view is always centered
 
 
 let g:file = expand('%')
-if g:file=~'padrinocasts.md'
+if g:file =~# 'padrinocasts.md'
     colorscheme delek
 else
     colorscheme github
@@ -181,23 +183,24 @@ set list " enable the predefined symbols for tabs, trails, ...
 if has('wildmenu')
   set wildmenu                           " enable a navigable list of suggestions
   set wildmode=full                      " zsh full-match, starts over with first match after last match reached
-  set wig+=.git,.hg,.svn                 " version control
-  set wig+=*.bmp,*.gif,*.ico,*.jpg,*.png " images
-  set wig+=*.aux,*.out,*.toc             " LaTeX intermediate files
-  set wig+=.DS_Store                     " Mac
-  set wig+=*~,*.swp,*.tmp                " tmp and backup files
+  set wildignore+=.git,.hg,.svn                 " version control
+  set wildignore+=*.bmp,*.gif,*.ico,*.jpg,*.png " images
+  set wildignore+=*.aux,*.out,*.toc             " LaTeX intermediate files
+  set wildignore+=.DS_Store                     " Mac
+  set wildignore+=*~,*.swp,*.tmp                " tmp and backup files
 endif
 
 " }}}
 " Functions {{{
 " Trailing whitespace removal {{{
+
 fu! <SID>StripTrailingWhitespaces()
   " preparation: save last search, and cursor position.
   let l:_s=@/
   let l:l = line('.')
   let l:c = col('.')
   " do the business:
-  %s/\s\+$//e
+  silent! execute ':%s/\s\+$//'
   " Clean up: restore previous search history, and cursor position
   let @/=l:_s
   call cursor(l:l, l:c)
