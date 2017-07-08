@@ -49,7 +49,6 @@ Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'w0rp/ale', '0d8be55'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
-Plug 'Shougo/denite.nvim', '56a9f17'
 Plug 'Shougo/neosnippet.vim', '867149c'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
 
@@ -61,6 +60,7 @@ if has('python3')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
   Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
+  Plug 'Shougo/denite.nvim', '56a9f17'
 endif
 
 Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
