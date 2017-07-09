@@ -269,6 +269,7 @@ ru mappings/far.vim                       " q will close the Far window
 ru mappings/fzf.vim                       " <C-p> start file search
 ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
 ru mappings/grepper.vim                   " <C-n|C-p> will browser grep history, gs as a motion (e.g. gsW, or mark a text in visual and press gs)
+ru mappings/help.vim                      " q will close help window
 ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
 ru mappings/moving_wrapped_lines.vim      " Use hjkl in wrapped-lined files
 ru mappings/neoyank.vim                   " <leader>y search the yank history
