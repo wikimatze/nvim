@@ -14,3 +14,5 @@ command -nargs=0 German call lexical#init({
   \ 'spellfile':  ['~/.config/nvim/spell/de.utf-8.add']
   \ })
 
+let g:lexical#thesaurus_key = '<C-x>k'
+

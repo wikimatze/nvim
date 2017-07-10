@@ -228,8 +228,8 @@ Use grep to find anything.
 ## [vim-lexical](https://github.com/reedes/vim-lexical)
 Custom dictionary, thesaurus, and spell checking options for files or when calling a command.
 
-- `<C-x> <C-k>` ... opens the dictionary
-- `<C-x> <C-t>` ... opens the thesaurus
+- `<C-x> <C-k>` ... opens the dictionary (in insert and normal mode)
+- `<C-x>k` ... opens the thesaurus (only in normal mode)
 - `<C-n>|<C-p>` ... navigate to the next or previous matching
 - custom commands: `:German|:English` ... will load customized settings
 
