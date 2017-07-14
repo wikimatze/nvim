@@ -164,14 +164,6 @@ Change quotes and all other delimiters.
     press `S` and then the quote (`"", (), {}`) you want to have and it wraps the string in this
 
 
-## [syntastic](https://github.com/scrooloose/syntastic)
-Performs syntax check on various languages when saving.
-
-- **Options**
-  - `:SyntasticCheck` ... runs the syntax checker
-  - `:SyntasticInfo` ... information about the current used syntax checkers and filetypes
-
-
 ## [ranger.vim](https://github.com/francoiscabrol/ranger.vim)
 Ranger intergration for vim and neovim.
 - custom mappings:
