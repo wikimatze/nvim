@@ -51,7 +51,7 @@ Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'w0rp/ale', '0d8be55'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
-Plug 'Shougo/neosnippet.vim', '867149c'
+Plug 'Shougo/neosnippet.vim', 'ddd01d0'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all' }
