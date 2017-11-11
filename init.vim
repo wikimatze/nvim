@@ -104,6 +104,7 @@ set ignorecase                              " case insensitive search
 set smartcase                               " canceling out ignore for uppercase letter in search
 set nohlsearch
 set noswapfile                              " don't save swap files
+set guicursor=                              " prevent strange symbols (see https://github.com/neovim/neovim/issues/7002)
 
 
 " Prefer Neovim terminal insert mode to normal mode.
