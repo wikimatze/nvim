@@ -105,6 +105,8 @@ set smartcase                               " canceling out ignore for uppercase
 set nohlsearch
 set noswapfile                              " don't save swap files
 set guicursor=                              " prevent strange symbols (see https://github.com/neovim/neovim/issues/7002)
+set breakindent                           " every wrapped line will continue visually indented (same amount of space as the beginning of that line), thus preserving horizontal blocks
+
 
 
 " Prefer Neovim terminal insert mode to normal mode.
