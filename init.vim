@@ -78,7 +78,7 @@ set noerrorbells                            " turn of nasty error sounds
 set autoindent                              " Copy indent from current line when starting a new line
 set autoread                                " automatically read a file that has changed on disk
 set autowrite                               " automatically write a file when moving to another buffer
-set showbreak=↪                             " show the symbol for wrapped lines
+let &showbreak='↳ '                             " show the symbol for wrapped lines
 set nowarn                                  " do not warn, when shell command update the file you edit in Vim
 set backspace=indent,eol,start              " allow backspacing over everything in insert mode
 set numberwidth=2                           " using only 2 column for number line presentation
