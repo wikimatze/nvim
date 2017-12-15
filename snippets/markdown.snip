@@ -57,7 +57,7 @@ snippet bbb
 snippet footnote
   ${1:word:}[^$1]
 
-  [$1]: ${2:text}
+  [^$1]: ${2:text}
 snippet box
   \begin{aside}
   \heading{${1:headline}}
@@ -65,10 +65,14 @@ snippet box
   ${2:}
 
   \end{aside}
-snippet label
+snippet labelsec
   \label{sec:${1:n}}
-snippet ref
+snippet labelbox
+  \label{box:${1:n}}
+snippet refsec
   ~\ref{sec:${1:n}}
+snippet refbox
+  ~\ref{box:${1:n}}
 snippet l
   1. ${1:}
   2. ${2:}
