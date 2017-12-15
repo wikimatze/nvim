@@ -349,6 +349,7 @@ will record the sequence of actions, save them and make them executable
 - `:only` ... close all windows except the actual one
 - `:execute` ... evaluate a string as if it's a Vim command
   - e.g. :execute "echom 'Hello world!'"
+- `m` ... will move lines (e.g. :1m2)
 - `digraphs` ...  will display list of characters that are not on the keyboard (still don't know how to use them)
 - `gx` ... opens the URL under the browser
 - `:help` ... open the help menu (dopple click on a link will go it)
