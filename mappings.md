@@ -15,10 +15,10 @@
 - `20|` ... go to column 20 of the current line
 - `^`| `0` | `_` ... go to the beginning of a line (think of anchored to the start)
 - `$` ... go the end of a row (the buck ends here)
-- `<C-u>` ... scroll **upper** (as a picture: scroll down half of the screen)
-- `<C-d>` ... scroll **down** (as a picture: scroll up half of the screen)
-- `<C-b>` ... scroll backwards a whole page (not only the visible part)
-- `<C-f>` ... scroll forwards a whole page (not only in the visible part)
+- `<C-d>` ... scroll **down** half the page
+- `<C-u>` ... scroll **up** half of the page
+- `<C-f>` ... scroll forwards a full page (not only in the visible part)
+- `<C-b>` ... scroll backwards a full page (not only the visible part)
 - `}` ... move to end of next paragraph or code block
 - `{` ... move to start of previous paragraph or code block
 - `)`... move the cursor forward to the next sentence
