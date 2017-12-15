@@ -170,9 +170,13 @@ completion)
   - go into search mode via `/`
   - press `Ctrl-R a` to paste the contents of register `a`
 - open files of a certain type and do a replacement:
-  - `args **/*.md` ... open all markdown files
-  - `argdo :%s/test/bla/gce | update` ... run the replacement to all files in the buffer, `update` writes the file
+  - `:arg` ... get the list of all open files
+  - `:argdo` ... execute the give commands for all open files in the :arg list
+    - `:argdo %s/test/bla/gce | update` ... run the replacement to all files in the arglist and `update` writes the file
     only if changes were made, the `e` silence errors from the substitution command
+  - `:buffers` ... get the list of all open buffers
+  - `:bufdo` ... execute the give commands for all open files in the :buffers list
+    - `:bufdo exe ":normal dd" | update` ... will delete the first line to all files in the buffer list and `update` writes the file
 
 
 # Matching Patterns and literals
