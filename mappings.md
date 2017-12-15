@@ -56,13 +56,13 @@
 - `gV` ... reselect the text which was marked in visual mode before
   - `o` ... will go to the other end of the visual selection when using `gv`
 - `cw` | `ce` ... delete the word with going into insert mode
-- `cW` | `cE` ... delete the word with going into insert mode via whitespace separation (no words are counted)
+- `cW` | `cE` ... delete the word with going into insert mode via whitespace separation
 - `ci"` ... delete everything whats inside the special sign `"` (others are `"", '', (), {}, []` ) and go into the edit mode
 - `=` ... autoindent line
 - `==` ... indent the actual line
-- `=G` ... format the whole file
+- `gg=G` ... intend the whole file
 - `J` ... join two lines
-- `gJ` ... join lines without whitespace
+ - `gJ` ... join lines without whitespace
 - `dd | dL` ... delete current line, no matter where the cursor is in the current line
 - `<C-v>` ... **Visual block mode** select (when pressing `c` the selected text disappears and go in insert mode)
 - `<C-a>` ... incerase any number by one (you can use motions, e.g. `9<C-a>`)
