@@ -29,7 +29,7 @@ Plug 'gregsexton/gitv', { 'commit': '14fcbf5', 'on': ['Gitv'] }
 Plug 'itchyny/lightline.vim', 'ff74d65'
 Plug 'jamessan/vim-gnupg', 'e7b6648'
 Plug 'janko-m/vim-test', '1edd7be'
-Plug 'jreybert/vimagit', {'commit': '595af14', 'on': ['Magit'] }
+Plug 'jreybert/vimagit', {'commit': '1.7.2', 'on': ['Magit'] }
 Plug 'junegunn/vader.vim', { 'commit': '654bbf7', 'for': 'vim' }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', 'c400613'
