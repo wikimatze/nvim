@@ -14,6 +14,9 @@ Next, start vim and run `:PlugInstall` - happy neo-vimming!
 ## [ale](https://github.com/w0rp/ale)
 Asynchronous Lint Engine.
 
+- `ALEEnable` ... enable Ale
+- `ALEDisable` ... disable Ale
+
 
 ## [caw.vim](https://github.com/tyru/caw.vim)
 Vim comment plugin.
