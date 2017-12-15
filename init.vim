@@ -144,6 +144,17 @@ endif
 set tags=tags,./tags,gems.tags,./gems.tags
 
 " }}}
+" Persisten undo {{{
+if has('persistent_undo')
+  if !isdirectory($HOME . '/.undodir/')
+    call mkdir($HOME . '/.undodir/')
+  endif
+  set undodir=$HOME/.undodir/
+  set undofile
+endif
+
+" }}}
+
 " Backups {{{
 
 if !isdirectory($HOME . '/.config/nvim/backup')
