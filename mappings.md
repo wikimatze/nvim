@@ -322,6 +322,9 @@ completion)
 - `:args` ... prints a list of all opened files
 - `:saveas <filename>` - save the changes you made on the new text file
 - `:history` ...  print the last commands for the command-line
+- `:normal` will execute the given command like if you are in normal mode (works good with visual mode)
+  - `:normal A;` ... will append ; to the end of a line for the current selection
+  - `:%normal A;` ... will append ; to the whole file
 - `:redir @a> <CMD> redir END` ... will put the `<CMD>` in the register `a`
 - `v/` is the opposite of `g/` ... "I want to match what I want to keep and delete the rest"
 - `:history` print the last commands -> useful when writing a script
