@@ -336,6 +336,8 @@ completion)
 - `:qall` ... quite all windows and will ask for unmodified changes
 - `:tohtml` ... will call an internal plugin to convert markdown into an HTML file in an extra window
 - `:only` ... close all windows except the actual one
+- `:execute` ... evaluate a string as if it's a Vim command
+  - e.g. :execute "echom 'Hello world!'"
 - `digraphs` ...  will display list of characters that are not on the keyboard (still don't know how to use them)
 - `gx` ... opens the URL under the browser
 - `:help` ... open the help menu (dopple click on a link will go it)
