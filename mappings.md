@@ -109,6 +109,15 @@
   is `t` (to)
 
 
+# Macros
+
+will record the sequence of actions, save them and make them executable
+
+- `qa` ... will save commands in register `a`
+- `@a` ... execute the recording which is saved in register `a`
+- `@@` ... repeat the last executed macro
+
+
 # Ctags
 - `ctags -R .` ... creates a tag file
 - `:tags` ... show the list of tags you traversed through
@@ -176,6 +185,7 @@ completion)
     only if changes were made, the `e` silence errors from the substitution command
   - `:buffers` ... get the list of all open buffers
   - `:bufdo` ... execute the give commands for all open files in the :buffers list
+    - `:bufdo exe ":normal dd" | update` ... will delete the first line to all files in the buffer list and `update` writes the file
     - `:bufdo exe ":normal dd" | update` ... will delete the first line to all files in the buffer list and `update` writes the file
 
 
