@@ -24,7 +24,7 @@ Plug 'alvan/vim-closetag', 'f9fd067'
 Plug 'brooth/far.vim', '3376dc5'
 Plug 'christoomey/vim-tmux-navigator', '3e83ddc'
 Plug 'cohama/lexima.vim', '85cfff9'
-Plug 'francoiscabrol/ranger.vim', 'b77a534'
+Plug 'francoiscabrol/ranger.vim', '4f4ff45'
 Plug 'gregsexton/gitv', { 'commit': '14fcbf5', 'on': ['Gitv'] }
 Plug 'itchyny/lightline.vim', 'ff74d65'
 Plug 'jamessan/vim-gnupg', 'e7b6648'
