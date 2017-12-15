@@ -321,6 +321,7 @@ completion)
 - `g<C-g>` ...  count the words of a file and gives extensive overview of words and chars
 - `q/` ... overview of all search patterns
 - `q:` ... opens the command-line with history of Ex commands
+- `<C-o>o` ... will open the last edited file
 - `<C-w>o` ... close all windows except the current one
 - `<C-z>` ... will background the terminal Vim session and return to bash; `fg` resume the suspended job
 - `:ascii | ga` ... displays the ASCII, Hex and Octal representation of the character under the actual cursor
@@ -359,6 +360,7 @@ completion)
 - `:helpgrep <searchterm>` ... search all doc after the specified term (press :cwindow to see all matchings)
 - `:help 'complete'` ... specifies how keyword completion works
 - `:help ins-completion` overview of commands to start autocompletion
+
 
 
 # Spellchecker
