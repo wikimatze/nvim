@@ -15,4 +15,5 @@ command -nargs=0 German call lexical#init({
   \ })
 
 let g:lexical#thesaurus_key = '<C-x>k'
+let g:lexical#dictionary_key = '<C-x><C-k>'
 
