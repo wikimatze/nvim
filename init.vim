@@ -340,7 +340,7 @@ function! AlternateForCurrentFile()
   let in_app = match(current_file, '\<controllers\>') != -1 || match(current_file, '\<models\>') != -1 || match(current_file, '\<views\>') != -1 || match(current_file, '\<helpers\>') != -1
   if going_to_spec
     if in_app
-        let new_file = substitute(new_file, '^app/', '', '')
+      let new_file = substitute(new_file, '^app/', '', '')
     end
 
     if in_controller
@@ -348,12 +348,12 @@ function! AlternateForCurrentFile()
       let new_file = 'spec/app/' . new_file
     else
       let new_file = substitute(new_file, '\.e\?rb$', '_spec.rb', '')
-      let new_file = 'spec/app/' . new_file
+      let new_file = 'spec/' . new_file
     end
   else
     if in_controller
-        let new_file = substitute(new_file, '_controller_spec\.rb$', '.rb', '')
-        let new_file = substitute(new_file, '^spec/', '', '')
+      let new_file = substitute(new_file, '_controller_spec\.rb$', '.rb', '')
+      let new_file = substitute(new_file, '^spec/', '', '')
     endif
     let new_file = substitute(new_file, '_spec\.rb$', '.rb', '')
     let new_file = substitute(new_file, '^spec/', '', '')
