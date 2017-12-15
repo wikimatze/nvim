@@ -131,14 +131,14 @@ will record the sequence of actions, save them and make them executable
 - `<C-n>|<C-p>` ... Keyword autocompletion for next|previous matching
 - `<C-x><C-n>` ... path autocompletion current buffer keywords
 - `<C-x><C-i>` ... include file keywords
+- `<C-x><C-l>` ... line completion
 - `<C-x><C-o>` ... omnicomplete with context awareness
 - `<C-x><C-k>` ... autocompletion from dictionary
 - `<C-x><C-f>` ... filename completion for the current directory
-- `<C-x><C-]>` ... tags file keywords (either in normal mode to search after all tags or in insert mode for
-completion)
 - `<C-c> | <C-e>` ... exit from autocompletion pop up
 - `<C-x><C-t>` ... thesaurus lookup (only in insert mode)
 - `<C-x><C-k>` ... dictionary lookup (only in insert mode)
+- `<C-x><C-]>` ... tags file keywords (either in normal mode to search after all tags or in insert mode for completion)
 
 
 # Search and Replace
@@ -226,7 +226,6 @@ completion)
 - `<C-d>` ... remove shift
 - `<C-h>` ... delete back one character
 - `<C-u>` ... delete all characters left from the cursor
-- `<C-x-l>` ... line completion
 - `<C-w>` ... delete the previous word
 - `<C-k>{char1}{char2}` ... will insert digraphs (`:h digraphs`)
 - `<C-r>+` ... paste from clipboard while in insert mode
