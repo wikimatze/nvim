@@ -60,8 +60,8 @@ Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all'
 
 if has('python3')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-  Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
   Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
+  Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
   Plug 'Shougo/denite.nvim', '56a9f17'
 endif
 
@@ -105,7 +105,7 @@ set smartcase                               " canceling out ignore for uppercase
 set nohlsearch
 set noswapfile                              " don't save swap files
 set guicursor=                              " prevent strange symbols (see https://github.com/neovim/neovim/issues/7002)
-set breakindent                           " every wrapped line will continue visually indented (same amount of space as the beginning of that line), thus preserving horizontal blocks
+set breakindent                             " every wrapped line will continue visually indented (same amount of space as the beginning of that line), thus preserving horizontal blocks
 
 
 
@@ -295,6 +295,7 @@ ru mappings/ranger.vim                    " F2 will call :Ranger
 ru mappings/tagbar.vim                    " F3 will call :TagbarToggle
 ru mappings/terminal.vim                  " :T, :VT will open a split/vsplit with terminal, ESC ... exit terminal mode, <C-h|j|k|l> to move windows
 ru mappings/vim_test.vim                  " <leader>t :TestNearest, <leader>T :TestFile, <leader>a :TestSuite, <leader>l :TestLastVisit, <leader>g :TestVisit
+
 
 " ,d to copy the file path to clipboard, very handy for file name completion for vimbook
 nmap <leader>d :call system("xclip -i -selection clipboard", expand("%"))<CR>
