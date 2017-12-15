@@ -87,15 +87,16 @@
 
 
 # Delete, Cut, and copy
-- `x` ... delete single character
+- `x` ... delete single character where the cursor is placed
+- `X` ... delete single character left to the current cursor position
 - `dw` ... delete whole word (use motions: *2dw* deletes two words)
 - `dd | dL` ... cut the whole line
 - `D | d$` ... delete all characters after the cursor till EOL
 - `C` ... deletes all characters after the cursor position and will go in insert mode
 - `s` ... delete current char and go into insert mode
 - `d` is an operator pending operator
-- `df<char>` ... press the character until which should be deleted (**inclusive** the char)
 - `dt<char>` ... delete till a char at start right in front of it (**exclusive** the char)
+- `df<char>` ... press the character until which should be deleted (**inclusive** the char)
 - `dst` ... deletes surrounding tag (good for HTML working)
 - `yy` ... copy whole line (`Y` means the same)
 - `yw` ... yank whole word
