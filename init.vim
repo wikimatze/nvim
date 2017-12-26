@@ -55,6 +55,8 @@ Plug 'Shougo/neosnippet.vim', 'ddd01d0'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 
 " Plug 'wikimatze/vim-radio'
 
@@ -280,7 +282,7 @@ ru mappings/commandline.vim               " <C-b> go char left, <C-f> go char ri
 ru mappings/copy_paste_clipboard.vim      " <C-c> for copy, <leader-C-v> to paste from clipboard in normal mode
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
 ru mappings/far.vim                       " q will close the Far window
-ru mappings/fzf.vim                       " <C-p> start file search
+ru mappings/fzf.vim                       " <C-p> start file search, ; will start buffer search
 ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
 ru mappings/grepper.vim                   " <C-n|C-p> will browser grep history, gs as a motion (e.g. gsW, or mark a text in visual and press gs)
 ru mappings/help.vim                      " q will close help window

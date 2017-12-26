@@ -54,6 +54,14 @@ A find and replace plugin.
   - `<CR-j>|<CR-k>` ... scroll down/up the preview window
 
 
+## [fzf.vim](https://github.com/junegunn/fzf.vim)
+Useful commands for working with fzf and vim
+
+- `:Buffers` ... search all the open buffers
+- `:Tags` ... search all the tags in the given directory
+- `:BTags` ... search all the tags of the current buffer
+
+
 ## [bclose.vim](https://github.com/rbgrouleff/bclose.vim)
 Need this plugin to close the ranger window with `q`.
 
