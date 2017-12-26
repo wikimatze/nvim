@@ -26,7 +26,7 @@ Plug 'christoomey/vim-tmux-navigator', '3e83ddc'
 Plug 'cohama/lexima.vim', '85cfff9'
 Plug 'francoiscabrol/ranger.vim', '4f4ff45'
 Plug 'gregsexton/gitv', { 'commit': '14fcbf5', 'on': ['Gitv'] }
-Plug 'itchyny/lightline.vim', 'ff74d65'
+Plug 'itchyny/lightline.vim', '583138f'
 Plug 'jamessan/vim-gnupg', 'e7b6648'
 Plug 'janko-m/vim-test', '1edd7be'
 Plug 'jreybert/vimagit', {'commit': '1.7.2', 'on': ['Magit'] }
