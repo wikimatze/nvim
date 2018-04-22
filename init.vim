@@ -69,7 +69,8 @@ endif
 
 Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
 
-" Initialize plugin system
+Plug 'andymass/vim-matchup', '35622fc'
+
 call plug#end()
 
 
@@ -267,7 +268,6 @@ command! BdelOnly :silent call Bdeleteonly()
 " Plugin settings {{{
 
 ru! plugin_settings/*.vim
-ru macros/matchit.vim " enable better matching for % command
 
 " }}}
 " Settings {{{

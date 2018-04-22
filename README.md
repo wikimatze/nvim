@@ -272,6 +272,10 @@ Vim plugin for livedown to preview markdown files.
 - `:LivedownToggle` ... start/kills the livedown server
 
 
+## [vim-matchup](https://github.com/andymass/vim-matchup)
+Better matching and syntax highlighting.
+
+
 ## [vim-markdown](https://github.com/tpope/vim-markdown)
 Markdown-syntax highlighting.
 
