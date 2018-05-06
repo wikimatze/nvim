@@ -21,6 +21,7 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'alvan/vim-closetag', 'f9fd067'
+Plug 'andymass/vim-matchup', '35622fc'
 Plug 'brooth/far.vim', '3376dc5'
 Plug 'christoomey/vim-tmux-navigator', '3e83ddc'
 Plug 'cohama/lexima.vim', '85cfff9'
@@ -56,7 +57,6 @@ Plug 'Shougo/neoyank.vim', 'ad56eca'
 
 Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-
 
 " Plug 'wikimatze/vim-radio'
 
