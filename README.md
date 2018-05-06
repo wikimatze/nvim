@@ -206,12 +206,6 @@ Display the undo graph for a file.
 - `:UndotreeToggle` ... turn on or off the toggle feature
 
 
-## [vader.vim](https://github.com/junegunn/vader.vim)
-Testframework for Vimscript.
-
-- `:Vader` ... runs the current test file
-
-
 ## [vim-closetag](https://github.com/alvan/vim-closetag)
 Auto close (X)HTML tags. Press `<` again will do the intendation.
 

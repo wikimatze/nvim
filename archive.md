@@ -921,3 +921,8 @@ endif
 </pre>
 
 
+## [vader.vim](https://github.com/junegunn/vader.vim)
+Testframework for Vimscript.
+
+- `:Vader` ... runs the current test file
+
