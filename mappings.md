@@ -110,6 +110,7 @@
   is `t` (to)
 
 
+
 # Macros
 
 will record the sequence of actions, save them and make them executable
@@ -363,6 +364,9 @@ will record the sequence of actions, save them and make them executable
 - `:help ins-completion` overview of commands to start autocompletion
 
 
+# Write files which weren't open in sudo modus
+
+:w !sudo tee % >/dev/null
 
 # Spellchecker
 - `]s` ... place the cursor on the next error
