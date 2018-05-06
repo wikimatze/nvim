@@ -68,8 +68,6 @@ endif
 
 Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
 
-Plug 'andymass/vim-matchup', '35622fc'
-
 call plug#end()
 
 
