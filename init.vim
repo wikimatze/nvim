@@ -60,7 +60,7 @@ Plug 'junegunn/fzf.vim'
 " Plug 'wikimatze/vim-radio'
 
 if has('python3')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'Shougo/deoplete.nvim', { 'commit': 'cdc9c9024117add6877e588d8aa456fb1e3378e9', 'do': ':UpdateRemotePlugins' }
   Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
   Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
   Plug 'Shougo/denite.nvim', '56a9f17'
