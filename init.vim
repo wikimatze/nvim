@@ -26,7 +26,6 @@ Plug 'brooth/far.vim', '3376dc5'
 Plug 'christoomey/vim-tmux-navigator', '3e83ddc'
 Plug 'cohama/lexima.vim', '85cfff9'
 Plug 'francoiscabrol/ranger.vim', '4f4ff45'
-Plug 'gregsexton/gitv', { 'commit': '14fcbf5', 'on': ['Gitv'] }
 Plug 'itchyny/lightline.vim', '583138f'
 Plug 'jamessan/vim-gnupg', 'fa3a630'
 Plug 'janko-m/vim-test', '1edd7be'
@@ -54,13 +53,16 @@ Plug 'xolox/vim-notes', '0.33.4'
 Plug 'Shougo/neosnippet.vim', 'ddd01d0'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
 
+Plug 'rbong/vim-flog'
+
 Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
 " Plug 'wikimatze/vim-radio'
 
 if has('python3')
-  Plug 'Shougo/deoplete.nvim', { 'commit': 'cdc9c9024117add6877e588d8aa456fb1e3378e9', 'do': ':UpdateRemotePlugins' }
+  " has to stick to that version because of python error (https://github.com/Shougo/deoplete.nvim/issues/654)
+  Plug 'Shougo/deoplete.nvim', { 'commit': '76b4ed40605fed1cef38e289ff21b0e2c66d6e05', 'do': ':UpdateRemotePlugins' }
   Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
   Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
   Plug 'Shougo/denite.nvim', '56a9f17'
@@ -69,6 +71,9 @@ endif
 Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
 
 call plug#end()
+
+let g:flog_default_date_format = 'format:%Y-%m-%d %H:%M:%S'
+let g:flog_default_format = "[%h] %ad %d %c %a %s"
 
 
 " General settings {{{
@@ -280,16 +285,16 @@ ru mappings/copy_paste_clipboard.vim      " <C-c> for copy, <leader-C-v> to past
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
 ru mappings/far.vim                       " q will close the Far window
 ru mappings/fzf.vim                       " <C-p> start file search, ; will start buffer search
-ru mappings/gitv.vim                      " ,gv (global view) and ,gV (file specific commits) for starting the browser
+ru mappings/flog.vim                      " q will close flog related windows
 ru mappings/grepper.vim                   " <C-n|C-p> will browser grep history, gs as a motion (e.g. gsW, or mark a text in visual and press gs)
-ru mappings/help.vim                      " q will close help window
+" ru mappings/help.vim                      " q will close help window
 ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
 ru mappings/moving_wrapped_lines.vim      " Use hjkl in wrapped-lined files
 ru mappings/neoyank.vim                   " <leader>y search the yank history
 ru mappings/notes.vim                     " F7 will open notes with the collect file
 ru mappings/pry.vim                       " ,pi toggles 'binding pry'
 ru mappings/quickediting.vim              " ,ba; ,bm; ,br; ,ev to edit files of vim repos
-ru mappings/quickfix_window.vim           " q will close the quickfix window
+"ru mappings/quickfix_window.vim           " q will close the quickfix window
 ru mappings/ranger.vim                    " F2 will call :Ranger
 ru mappings/tagbar.vim                    " F3 will call :TagbarToggle
 ru mappings/terminal.vim                  " :T, :VT will open a split/vsplit with terminal, ESC ... exit terminal mode, <C-h|j|k|l> to move windows
@@ -330,6 +335,7 @@ function! OpenTestAlternate()
   let new_file = AlternateForCurrentFile()
   exec ':e ' . new_file
 endfunction
+
 function! AlternateForCurrentFile()
   let current_file = expand("%")
   let new_file = current_file

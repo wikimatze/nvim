@@ -171,6 +171,20 @@ Redefines the search `(/,?)` and creates custom messages about how many hits the
 Shows git diff in Vim's gutter.
 
 
+## [gitv](https://github.com/gregsexton/gitv)
+A gitk/tig like git browser.
+
+- `:gitv` ... opens only gitv
+- `:gitv!` ... opens only commits which affects the current file
+- `co` ... performs a checkout of the commit on the currently focused commit
+- `yc` ... yanks the SHA of the commit
+- `q` ... quits gitv
+- `:Gitv -S<string>` ... look for differences that introduce or remove an instance of <string>
+- custom mappings:
+  - `nmap <leader>gv :Gitv --all<cr>`
+  - `nmap <leader>gV :Gitv! --all<cr>`
+
+
 ## [github-issues](https://github.com/jaxbot/github-issues.vim)
 GitHub issue lookup support, press # to enable omnicompletion
 
