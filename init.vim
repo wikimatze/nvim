@@ -344,7 +344,7 @@ function! AlternateForCurrentFile()
   let in_controller = match(expand("%"), 'controllers/') != -1
   let in_app = match(current_file, '\<controllers\>') != -1 || match(current_file, '\<models\>') != -1 || match(current_file, '\<views\>') != -1 || match(current_file, '\<helpers\>') != -1
   if going_to_spec
-    if in_app
+    if in_app && in_controller
       let new_file = substitute(new_file, '^app/', '', '')
     end
 
