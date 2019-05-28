@@ -196,6 +196,13 @@ Display the undo graph for a file.
 Auto close (X)HTML tags. Press `<` again will do the intendation.
 
 
+## [vim-flog](https://github.com/rbong/vim-flog)
+Git commit viewer tool
+
+- `:Flog` ... opens the commit view
+- `:Flog -path=<path-to-file>` ... get all commits concerning a file
+
+
 ## [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags)
 Updates tags file whenever you save a file.
 
