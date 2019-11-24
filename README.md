@@ -196,6 +196,12 @@ Display the undo graph for a file.
 Auto close (X)HTML tags. Press `<` again will do the intendation.
 
 
+## [vim-dadbod](https://github.com/tpope/vim-dadbod)
+Tool to interact with Databases.
+
+e.g.: DB sqlite:job_vacancy_development.db select count(*) from job_offers
+
+
 ## [vim-flog](https://github.com/rbong/vim-flog)
 Git commit viewer tool
 

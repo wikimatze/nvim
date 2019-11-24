@@ -58,6 +58,8 @@ Plug 'rbong/vim-flog'
 Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
+Plug 'tpope/vim-dadbod'
+
 " Plug 'wikimatze/vim-radio'
 
 if has('python3')
