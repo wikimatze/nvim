@@ -2,6 +2,7 @@
 
 Here is a list of plugins I used in the past and removed them due the lack of usage.
 
+
 ## [auto_mkdir](https://github.com/DataWraith/auto_mkdir)
 Create directories that do not exists yet when creating new files (e.g. with `e`).
 
@@ -939,4 +940,12 @@ endif
 Testframework for Vimscript.
 
 - `:Vader` ... runs the current test file
+
+## [vim-closetag](https://github.com/alvan/vim-closetag)
+Auto close (X)HTML tags. Press `<` again will do the intendation.
+
+- configuration:
+<pre>
+  let g:closetag_filenames = '*.html,*.xhtml,*.erb,*.md'
+</pre>
 

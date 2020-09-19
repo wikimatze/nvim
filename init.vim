@@ -20,7 +20,6 @@ endif
 " Specify a directory for plugins
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'alvan/vim-closetag', 'f9fd067'
 Plug 'andymass/vim-matchup', '35622fc'
 Plug 'brooth/far.vim', '3376dc5'
 Plug 'christoomey/vim-tmux-navigator', '3e83ddc'
