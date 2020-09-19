@@ -29,7 +29,7 @@ Plug 'francoiscabrol/ranger.vim', '4f4ff45'
 Plug 'itchyny/lightline.vim', '583138f'
 Plug 'jamessan/vim-gnupg', 'fa3a630'
 Plug 'janko-m/vim-test', '1edd7be'
-Plug 'jreybert/vimagit', {'commit': '1.7.2', 'on': ['Magit'] }
+Plug 'jreybert/vimagit', {'commit': 'bf7b16e', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', 'c400613'
 Plug 'majutsushi/tagbar', 'f579273'
