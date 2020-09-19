@@ -19,8 +19,7 @@ endif
 
 " Specify a directory for plugins
 call plug#begin('~/.config/nvim/plugged')
-
-Plug 'andymass/vim-matchup', '35622fc'
+Plug 'andymass/vim-matchup', '9e0b6f3'
 Plug 'brooth/far.vim', '3376dc5'
 Plug 'christoomey/vim-tmux-navigator', '3e83ddc'
 Plug 'cohama/lexima.vim', '85cfff9'
