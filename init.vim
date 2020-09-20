@@ -26,7 +26,8 @@ Plug 'cohama/lexima.vim', '89bf4d'
 Plug 'francoiscabrol/ranger.vim', '91e82de'
 Plug 'itchyny/lightline.vim', '6fb3ddd'
 Plug 'jamessan/vim-gnupg', '90b86c5'
-Plug 'janko-m/vim-test', '1edd7be'
+Plug 'janko-m/vim-test', '795f164'
+Plug 'tpope/vim-dispatch', 'fe6a343'
 Plug 'jreybert/vimagit', {'commit': 'bf7b16e', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', 'c400613'
