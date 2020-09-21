@@ -86,7 +86,7 @@ Git wrapper.
 - `:Gmove` ... rename the current file and add change to index
 - `:Gpush` ... performs a git push
 - `:Gread` ... makes will load the previous file status on the current file buffer
-- `:Gdiff` ... split the window to see diff
+- `:Gdiffsplit` ... split the window to see diff
   - `]c` ... jump to next hunk of the merge
   - `[c` ... jump to previous hunk of merge
   - `:diffget` ... get the changes from the not active window
