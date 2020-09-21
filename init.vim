@@ -41,7 +41,6 @@ Plug 'tpope/vim-fugitive', '511d303'
 Plug 'tpope/vim-markdown', {'commit': '276524e', 'for': 'markdown' }
 Plug 'tpope/vim-surround', 'f51a26d'
 Plug 'tyru/caw.vim', 'd4a4a73'
-Plug 'unblevable/quick-scope', 'd5882cb'
 Plug 'vim-ruby/vim-ruby', { 'commit': '074200f', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'w0rp/ale', '0d8be55'

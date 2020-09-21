@@ -974,3 +974,12 @@ Vim plugin for livedown to preview markdown files.
 - `:LivedownKill` ... kills the livedown server
 - `:LivedownToggle` ... start/kills the livedown server
 
+## [quick-scope](https://github.com/unblevable/quick-scope "quick-scope")
+Lightning fast left-right movement in Vim.
+
+- configuration:
+<pre>
+  " Trigger a highlight only when pressing f and F.
+  let g:qs_highlight_on_keys = ['f', 'F']
+</pre>
+

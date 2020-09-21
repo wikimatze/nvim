@@ -140,10 +140,6 @@ Saves yank history includes unite.vim history/yank source.
 - `<leader>y` ... call the yank window
 
 
-## [quick-scope](https://github.com/unblevable/quick-scope "quick-scope")
-Lightning fast left-right movement in Vim.
-
-
 ## [ranger.vim](https://github.com/francoiscabrol/ranger.vim)
 Ranger intergration for vim and neovim.
 - custom mappings:
