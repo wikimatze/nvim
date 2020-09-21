@@ -966,3 +966,11 @@ Lightweight auto correction for 300 words.
   augroup END
 </pre>
 
+
+## [vim-livedown](https://github.com/shime/vim-livedown)
+Vim plugin for livedown to preview markdown files.
+
+- `:LivedownPreview` ... launch the livedown server and preview your markdown file
+- `:LivedownKill` ... kills the livedown server
+- `:LivedownToggle` ... start/kills the livedown server
+
