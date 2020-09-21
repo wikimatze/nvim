@@ -30,14 +30,14 @@ Plug 'janko-m/vim-test', '795f164'
 Plug 'tpope/vim-dispatch', 'fe6a343'
 Plug 'jreybert/vimagit', {'commit': 'bf7b16e', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
-Plug 'ludovicchabant/vim-gutentags', 'c400613'
+Plug 'ludovicchabant/vim-gutentags', '8e69652'
 Plug 'majutsushi/tagbar', 'f579273'
-Plug 'matze/vim-move', '3409db6'
-Plug 'mbbill/undotree', 'ad08a88'
-Plug 'mhinz/vim-grepper', 'a534baf'
+Plug 'matze/vim-move', '1460aa9'
+Plug 'mbbill/undotree', 'be23eac'
+Plug 'mhinz/vim-grepper', 'e9004ce'
 Plug 'rbgrouleff/bclose.vim'
-Plug 'reedes/vim-lexical', 'fb42333'
-Plug 'reedes/vim-litecorrect', '8d5f233'
+Plug 'reedes/vim-lexical', '94c8541'
+Plug 'reedes/vim-litecorrect', '5dfaa08'
 Plug 'shime/vim-livedown', { 'tag': 'v1.0.4', 'for': 'markdown', 'do': 'sudo npm install -g livedown' }
 Plug 'tpope/vim-fugitive', 'be2ff98'
 Plug 'tpope/vim-markdown', {'commit': '57c5826', 'for': 'markdown' }
