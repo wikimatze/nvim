@@ -38,8 +38,8 @@ Plug 'mhinz/vim-grepper', 'e9004ce'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'reedes/vim-lexical', '94c8541'
 Plug 'tpope/vim-fugitive', '511d303'
-Plug 'tpope/vim-markdown', {'commit': '57c5826', 'for': 'markdown' }
-Plug 'tpope/vim-surround', 'e49d6c2'
+Plug 'tpope/vim-markdown', {'commit': '276524e', 'for': 'markdown' }
+Plug 'tpope/vim-surround', 'f51a26d'
 Plug 'tyru/caw.vim', 'd4a4a73'
 Plug 'unblevable/quick-scope', 'd5882cb'
 Plug 'vim-ruby/vim-ruby', { 'commit': '074200f', 'for': 'ruby' }

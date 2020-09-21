@@ -144,23 +144,6 @@ Saves yank history includes unite.vim history/yank source.
 Lightning fast left-right movement in Vim.
 
 
-## [surround](https://github.com/tpope/vim-surround)
-Change quotes and all other delimiters.
-
-- `ds"` ... stands for delete surround and will delete the surrounds
-  - example: `{ :a => 1 }` after pressing `ds{` you will get `:a => 1`
-- `cs("` ... change surroundings and will replace the first surrounding argument with the second surrounding
-  - example: `(:a => 1)` after pressing `cs({` you will get `{ :a => 1 }`
-- `ys` ... "you surround" and the first argument specifies the scope (can be a motion) and the second
-  makes the replacement and the second using for wrapping up the first argument with the quotes
-  - `ys2w` ... will wrapp two following words (`2w`) with underscores (`\*`)
-  - `yss{` ... wraps the whole line
-  - `ysiw` ... yank the inner word and in the command window add the tag you want to add
-- how to quote whole string?
-  - mark the string in visual mode (either normal mode with *v* or block mode with `V`), then
-    press `S` and then the quote (`"", (), {}`) you want to have and it wraps the string in this
-
-
 ## [ranger.vim](https://github.com/francoiscabrol/ranger.vim)
 Ranger intergration for vim and neovim.
 - custom mappings:
@@ -303,6 +286,23 @@ Configuration files for editing and compiling Ruby - it even adds custom text-ob
   - `[m` ... move to the beginning of the *previous method*
   - `]]` ... move to the beginning of the **next** *module* or *class* definition
   - `[[` ... move to the beginning of the **previous** *module* or *class* definition
+
+
+## [vim-surround](https://github.com/tpope/vim-surround)
+Change quotes and all other delimiters.
+
+- `ds"` ... stands for delete surround and will delete the surrounds
+  - example: `{ :a => 1 }` after pressing `ds{` you will get `:a => 1`
+- `cs("` ... change surroundings and will replace the first surrounding argument with the second surrounding
+  - example: `(:a => 1)` after pressing `cs({` you will get `{ :a => 1 }`
+- `ys` ... "you surround" and the first argument specifies the scope (can be a motion) and the second
+  makes the replacement and the second using for wrapping up the first argument with the quotes
+  - `ys2w` ... will wrapp two following words (`2w`) with underscores (`\*`)
+  - `yss{` ... wraps the whole line
+  - `ysiw` ... yank the inner word and in the command window add the tag you want to add
+- how to quote whole string?
+  - mark the string in visual mode (either normal mode with *v* or block mode with `V`), then
+    press `S` and then the quote (`"", (), {}`) you want to have and it wraps the string in this
 
 
 ## [vim-test](https://github.com/janko-m/vim-test)
