@@ -983,3 +983,10 @@ Lightning fast left-right movement in Vim.
   let g:qs_highlight_on_keys = ['f', 'F']
 </pre>
 
+
+## [vim-flog](https://github.com/rbong/vim-flog)
+Git commit viewer tool
+
+- `:Flog` ... opens the commit view
+- `:Flog -path=<path-to-file>` ... get all commits concerning a file
+

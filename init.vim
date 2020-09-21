@@ -49,8 +49,6 @@ Plug 'xolox/vim-notes', '0.33.4'
 Plug 'Shougo/neosnippet.vim', 'ddd01d0'
 Plug 'Shougo/neoyank.vim', 'ad56eca'
 
-Plug 'rbong/vim-flog'
-
 Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
