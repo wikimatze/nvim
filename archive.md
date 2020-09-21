@@ -949,3 +949,20 @@ Auto close (X)HTML tags. Press `<` again will do the intendation.
   let g:closetag_filenames = '*.html,*.xhtml,*.erb,*.md'
 </pre>
 
+
+## [vim-litecorrect](https://github.com/reedes/vim-litecorrect)
+Lightweight auto correction for 300 words.
+
+    e.g:
+      Im -> I'm
+      shouldnt -> shouldn't
+      thats -> that's
+
+- configuration:
+<pre>
+  augroup litecorrect
+    autocmd!
+    autocmd FileType markdown,mkd,tex,text call litecorrect#init()
+  augroup END
+</pre>
+

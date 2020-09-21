@@ -37,7 +37,6 @@ Plug 'mbbill/undotree', 'be23eac'
 Plug 'mhinz/vim-grepper', 'e9004ce'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'reedes/vim-lexical', '94c8541'
-Plug 'reedes/vim-litecorrect', '5dfaa08'
 Plug 'shime/vim-livedown', { 'tag': 'v1.0.4', 'for': 'markdown', 'do': 'sudo npm install -g livedown' }
 Plug 'tpope/vim-fugitive', 'be2ff98'
 Plug 'tpope/vim-markdown', {'commit': '57c5826', 'for': 'markdown' }

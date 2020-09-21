@@ -229,15 +229,6 @@ Custom dictionary, thesaurus, and spell checking options for files or when calli
 - custom commands: `:German|:English` ... will load customized settings
 
 
-## [vim-litecorrect](https://github.com/reedes/vim-litecorrect)
-Lightweight auto correction for 300 words.
-
-    e.g:
-      Im -> I'm
-      shouldnt -> shouldn't
-      thats -> that's
-
-
 ## [vimagit](https://github.com/jreybert/vimagit)
 A new way to use git in Vim.
 
