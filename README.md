@@ -54,14 +54,6 @@ A find and replace plugin.
   - `<CR-j>|<CR-k>` ... scroll down/up the preview window
 
 
-## [fzf.vim](https://github.com/junegunn/fzf.vim)
-Useful commands for working with fzf and vim
-
-- `:Buffers` ... search all the open buffers
-- `:Tags` ... search all the tags in the given directory
-- `:BTags` ... search all the tags of the current buffer
-
-
 ## [bclose.vim](https://github.com/rbgrouleff/bclose.vim)
 Need this plugin to close the ranger window with `q`.
 
@@ -112,6 +104,18 @@ Git wrapper.
 Fuzzy finder for your shell as a Vim plugin.
 
 
+## [fzf.vim](https://github.com/junegunn/fzf.vim)
+Useful commands for working with fzf and vim
+
+- `:Buffers` ... search all the open buffers
+- `:Tags` ... search all the tags in the given directory
+- `:BTags` ... search all the tags of the current buffer
+- `:Commits` ... search through all commits
+- `:History` ... old files and buffer
+- `:History:` ... Command history in vim
+- `:History/` ... Search history in vim
+
+
 ## [IndexSearch](https://github.com/vim-scripts/IndexedSearch)
 Redefines the search `(/,?)` and creates custom messages about how many hits there are.
 
@@ -153,7 +157,7 @@ Display the structure of the code.
 - `:TagbarOpen` ... open view tagbar
 - `:TagbarOpenAutoClose` ... opens the tagbar and close it after a tag was selected
 - `x` ... will zoom in/out the tagbar window
-- `q` ... quit yankring window
+- `q` ... quit tagbar window
 - `?` ... will print help
 
 
@@ -174,7 +178,7 @@ Display the undo graph for a file.
 ## [vim-dadbod](https://github.com/tpope/vim-dadbod)
 Tool to interact with Databases.
 
-e.g.: DB sqlite:job_vacancy_development.db select count(*) from job_offers
+e.g.`:DB sqlite:job_vacancy_development.db select count(*) from job_offers`
 
 
 ## [vim-dispatch](https://github.com/tpope/vim-dispatch)

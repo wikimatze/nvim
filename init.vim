@@ -21,50 +21,50 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 Plug 'andymass/vim-matchup', '9e0b6f3'
 Plug 'brooth/far.vim', 'aaf7b25'
-Plug 'christoomey/vim-tmux-navigator', '8fdf782'
+Plug 'christoomey/vim-tmux-navigator', '2fd76aa'
 Plug 'cohama/lexima.vim', '89bf4d'
 Plug 'francoiscabrol/ranger.vim', '91e82de'
-Plug 'itchyny/lightline.vim', '6fb3ddd'
+Plug 'itchyny/lightline.vim', 'f5f870e'
 Plug 'jamessan/vim-gnupg', '90b86c5'
 Plug 'janko-m/vim-test', '795f164'
 Plug 'tpope/vim-dispatch', 'fe6a343'
 Plug 'jreybert/vimagit', {'commit': 'bf7b16e', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', '8e69652'
-Plug 'majutsushi/tagbar', 'f579273'
+Plug 'majutsushi/tagbar', '1caa71a'
 Plug 'matze/vim-move', '1460aa9'
 Plug 'mbbill/undotree', 'be23eac'
 Plug 'mhinz/vim-grepper', 'e9004ce'
 Plug 'rbgrouleff/bclose.vim'
-Plug 'reedes/vim-lexical', '94c8541'
+Plug 'reedes/vim-lexical', '0898c0c'
 Plug 'tpope/vim-fugitive', '511d303'
 Plug 'tpope/vim-markdown', {'commit': '276524e', 'for': 'markdown' }
 Plug 'tpope/vim-surround', 'f51a26d'
-Plug 'tyru/caw.vim', 'd4a4a73'
-Plug 'vim-ruby/vim-ruby', { 'commit': '074200f', 'for': 'ruby' }
+Plug 'tyru/caw.vim', '0725e7c'
+Plug 'vim-ruby/vim-ruby', { 'commit': 'e367f7b', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
-Plug 'w0rp/ale', '0d8be55'
+Plug 'w0rp/ale', '08295ce1'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
-Plug 'Shougo/neosnippet.vim', 'ddd01d0'
-Plug 'Shougo/neoyank.vim', 'ad56eca'
+Plug 'Shougo/neosnippet.vim', '30b6b53'
+Plug 'Shougo/neoyank.vim', '0d86f65'
 
-Plug 'junegunn/fzf', { 'tag': '0.16.8', 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'tag': '0.22.0', 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim', '3348aef'
 
-Plug 'tpope/vim-dadbod'
+Plug 'tpope/vim-dadbod', '779e8d6e'
 
 " Plug 'wikimatze/vim-radio'
 
 if has('python3')
-  " has to stick to that version because of python error (https://github.com/Shougo/deoplete.nvim/issues/654)
-  Plug 'Shougo/deoplete.nvim', { 'commit': '76b4ed40605fed1cef38e289ff21b0e2c66d6e05', 'do': ':UpdateRemotePlugins' }
+  Plug 'Shougo/deoplete.nvim', { 'commit': '895fafe', 'do': ':UpdateRemotePlugins' }
   Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
-  Plug 'Shougo/neco-vim', '2329ad0'          " vimscript completion
-  Plug 'Shougo/denite.nvim', '56a9f17'
+  Plug 'Shougo/neco-vim', 'e7b5a73'          " vimscript completion
+  Plug 'Shougo/denite.nvim', '3d6acd8'
 endif
 
-Plug 'wellle/tmux-complete.vim', 'e74076d' " tmux completion
+Plug 'wellle/tmux-complete.vim', '7237d8d' " tmux completion
+
 
 call plug#end()
 
