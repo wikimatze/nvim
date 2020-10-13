@@ -323,3 +323,9 @@ Switch seamlessly between tmux panes and Vim splits.
 - `<Ctrl-k>` ... Up
 - `<Ctrl-l>` ... Right
 
+
+# Useful link
+
+- increase runtime https://vimways.org/2018/runtime-hackery/
+- game-break https://github.com/johngrib/vim-game-code-break
+
