@@ -56,15 +56,12 @@ Plug 'tpope/vim-dadbod', '779e8d6e'
 
 " Plug 'wikimatze/vim-radio'
 
-if has('python3')
-  Plug 'Shougo/deoplete.nvim', { 'commit': '895fafe', 'do': ':UpdateRemotePlugins' }
-  Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
-  Plug 'Shougo/neco-vim', 'e7b5a73'          " vimscript completion
-  Plug 'Shougo/denite.nvim', '67475c7'       " stick to that version because the setting denite#custom#map does not work anymore and neoyank is broken with the select and close workfow
-endif
+Plug 'Shougo/deoplete.nvim', { 'commit': '895fafe', 'do': ':UpdateRemotePlugins' }
+Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
+Plug 'Shougo/neco-vim', 'e7b5a73'          " vimscript completion
+Plug 'Shougo/denite.nvim', '8a6aec'
 
 Plug 'wellle/tmux-complete.vim', '7237d8d' " tmux completion
-
 
 call plug#end()
 
