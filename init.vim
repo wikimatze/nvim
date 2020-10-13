@@ -19,9 +19,4 @@ call plug#end()
 let g:neoyank#limit = 1000
 let g:neoyank#file = $HOME.'/.config/nvim/yankring.txt'
 
-autocmd FileType denite call s:denite_my_settings()
-function! s:denite_my_settings()
-  nnoremap <silent><buffer><expr> q
-  \ denite#do_map('quit')
-endfunction
 
