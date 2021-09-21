@@ -49,7 +49,9 @@ Plug 'xolox/vim-notes', '0.33.4'
 Plug 'Shougo/neosnippet.vim', '30b6b53'
 Plug 'Shougo/neoyank.vim', '0d86f65'
 
-Plug 'junegunn/fzf', { 'tag': '0.22.0', 'dir': '~/.fzf', 'do': './install --all' }
+" Should something now work (like commandline completion) install it manually
+" via https://github.com/junegunn/fzf#using-git
+Plug 'junegunn/fzf', { 'tag': '0.27.2', 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim', '3348aef'
 
 Plug 'tpope/vim-dadbod', '779e8d6e'
