@@ -40,7 +40,7 @@ Plug 'reedes/vim-lexical', '0898c0c'
 Plug 'tpope/vim-fugitive', '511d303'
 Plug 'tpope/vim-markdown', {'commit': '276524e', 'for': 'markdown' }
 Plug 'tpope/vim-surround', 'f51a26d'
-Plug 'tyru/caw.vim', '0725e7c'
+Plug 'tyru/caw.vim', '3aefcb5'
 Plug 'vim-ruby/vim-ruby', { 'commit': 'e367f7b', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'w0rp/ale', '08295ce1'
