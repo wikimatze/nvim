@@ -60,7 +60,7 @@ Plug 'tpope/vim-dadbod', '779e8d6e'
 Plug 'Shougo/deoplete.nvim', { 'commit': '1c40f64', 'do': ':UpdateRemotePlugins' }
 Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
 Plug 'Shougo/neco-vim', 'e7b5a73'          " vimscript completion
-Plug 'Shougo/denite.nvim', '8a6aec'
+Plug 'Shougo/denite.nvim', 'fbee9c1'
 
 Plug 'wellle/tmux-complete.vim', '7237d8d' " tmux completion
 
