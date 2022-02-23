@@ -51,7 +51,7 @@ Plug 'Shougo/neoyank.vim', '0d86f65'
 " Should something now work (like commandline completion) install it manually
 " via https://github.com/junegunn/fzf#using-git
 Plug 'junegunn/fzf', { 'tag': '0.29.0', 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim', '3348aef'
+Plug 'junegunn/fzf.vim', '1f7bfa4'
 
 Plug 'tpope/vim-dadbod', '779e8d6e'
 
