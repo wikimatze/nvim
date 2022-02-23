@@ -43,7 +43,6 @@ Plug 'tpope/vim-surround', 'f51a26d'
 Plug 'tyru/caw.vim', '3aefcb5'
 Plug 'vim-ruby/vim-ruby', { 'commit': 'e367f7b', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
-Plug 'w0rp/ale', '08295ce1'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
 Plug 'Shougo/neosnippet.vim', '30b6b53'
