@@ -57,7 +57,7 @@ Plug 'tpope/vim-dadbod', '779e8d6e'
 
 " Plug 'wikimatze/vim-radio'
 
-Plug 'Shougo/deoplete.nvim', { 'commit': '895fafe', 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/deoplete.nvim', { 'commit': '1c40f64', 'do': ':UpdateRemotePlugins' }
 Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
 Plug 'Shougo/neco-vim', 'e7b5a73'          " vimscript completion
 Plug 'Shougo/denite.nvim', '8a6aec'
