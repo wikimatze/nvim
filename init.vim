@@ -19,7 +19,7 @@ endif
 
 " Specify a directory for plugins
 call plug#begin('~/.config/nvim/plugged')
-Plug 'andymass/vim-matchup', '9e0b6f3'
+Plug 'andymass/vim-matchup', '7fd8806'
 Plug 'brooth/far.vim', '611d9c2'
 Plug 'christoomey/vim-tmux-navigator', '2fd76aa'
 Plug 'cohama/lexima.vim', 'abfae59'
@@ -28,7 +28,7 @@ Plug 'itchyny/lightline.vim', 'a29b833'
 Plug 'jamessan/vim-gnupg', '96be0be'
 Plug 'janko-m/vim-test', '795f164'
 Plug 'tpope/vim-dispatch', '00e77d9'
-Plug 'jreybert/vimagit', {'commit': 'bf7b16e', 'on': ['Magit'] }
+Plug 'jreybert/vimagit', {'commit': 'fb71060', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', '50705e8'
 Plug 'matze/vim-move', '1460aa9'
