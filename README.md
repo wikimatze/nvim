@@ -117,11 +117,12 @@ Redefines the search `(/,?)` and creates custom messages about how many hits the
 Semantic autoclose, delete brackets, ...
 
 
+
 ## [lightline](https://github.com/itchyny/lightline.vim)
 Awesome way to create a custom status line. (*no configuation*)
 
 
-## [neco-vim](https://github.com/Shougo/neco-vim "neco-vim")
+## [neco-vim](https://github.com/Shougo/neco-vim)
 The vim source for neocomplete/deoplete.
 
 
@@ -141,17 +142,6 @@ Saves yank history includes unite.vim history/yank source.
 Ranger intergration for vim and neovim.
 - custom mappings:
   - `map <F2> :RangerWorkingDirectory<CR>`
-
-
-## [tagbar](https://github.com/majutsushi/tagbar)
-Display the structure of the code.
-
-- `:TagbarToggle` ... opens or close the tagbar whether it was closed or open
-- `:TagbarOpen` ... open view tagbar
-- `:TagbarOpenAutoClose` ... opens the tagbar and close it after a tag was selected
-- `x` ... will zoom in/out the tagbar window
-- `q` ... quit tagbar window
-- `?` ... will print help
 
 
 ## [tmux-complete-vim](https://github.com/wellle/tmux-complete.vim)

@@ -1005,3 +1005,29 @@ Git commit viewer tool
 - `:Flog` ... opens the commit view
 - `:Flog -path=<path-to-file>` ... get all commits concerning a file
 
+
+## [tagbar](https://github.com/majutsushi/tagbar)
+Display the structure of the code.
+
+- `:TagbarToggle` ... opens or close the tagbar whether it was closed or open
+- `:TagbarOpen` ... open view tagbar
+- `:TagbarOpenAutoClose` ... opens the tagbar and close it after a tag was selected
+- `x` ... will zoom in/out the tagbar window
+- `q` ... quit tagbar window
+- `?` ... will print help
+
+- Settings
+
+```
+let g:tagbar_compact = 1 " don't show the help in the tagbar
+let g:tagbar_left = 0
+let g:tagbar_width = 20
+let g:tagbar_indent = 2
+let g:tagbar_autoclose = 1  " when tag is selected close the tagbar window
+let g:tagbar_autopreview = 1
+let g:tagbar_previewwin_pos = 'botright'
+```
+
+- mappings
+-- `nnoremap <silent> <F3> :TagbarToggle<CR>` in `ru mappings/tagbar.vim`
+

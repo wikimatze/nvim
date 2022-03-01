@@ -31,7 +31,6 @@ Plug 'tpope/vim-dispatch', 'fe6a343'
 Plug 'jreybert/vimagit', {'commit': 'bf7b16e', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', '8e69652'
-Plug 'majutsushi/tagbar', '1caa71a'
 Plug 'matze/vim-move', '1460aa9'
 Plug 'mbbill/undotree', 'be23eac'
 Plug 'mhinz/vim-grepper', 'e9004ce'
@@ -45,7 +44,7 @@ Plug 'vim-ruby/vim-ruby', { 'commit': 'e367f7b', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
-Plug 'Shougo/neosnippet.vim', '5973e80'
+Plug 'Shougo/neosnippet.vim', 'j973e80'
 Plug 'Shougo/neoyank.vim', '0d86f65'
 
 " Should something now work (like commandline completion) install it manually
@@ -290,7 +289,6 @@ ru mappings/pry.vim                       " ,pi toggles 'binding pry'
 ru mappings/quickediting.vim              " ,ba; ,bm; ,br; ,ev to edit files of vim repos
 "ru mappings/quickfix_window.vim           " q will close the quickfix window
 ru mappings/ranger.vim                    " F2 will call :Ranger
-ru mappings/tagbar.vim                    " F3 will call :TagbarToggle
 ru mappings/terminal.vim                  " :T, :VT will open a split/vsplit with terminal, ESC ... exit terminal mode, <C-h|j|k|l> to move windows
 ru mappings/vim_test.vim                  " <leader>t :TestNearest, <leader>T :TestFile, <leader>a :TestSuite, <leader>l :TestLastVisit, <leader>g :TestVisit
 
