@@ -45,7 +45,7 @@ Plug 'vim-ruby/vim-ruby', { 'commit': 'e367f7b', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
-Plug 'Shougo/neosnippet.vim', '30b6b53'
+Plug 'Shougo/neosnippet.vim', '5973e80'
 Plug 'Shougo/neoyank.vim', '0d86f65'
 
 " Should something now work (like commandline completion) install it manually
@@ -59,7 +59,7 @@ Plug 'tpope/vim-dadbod', '779e8d6e'
 
 Plug 'Shougo/deoplete.nvim', { 'commit': '1c40f64', 'do': ':UpdateRemotePlugins' }
 Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
-Plug 'Shougo/neco-vim', 'e7b5a73'          " vimscript completion
+Plug 'Shougo/neco-vim', '4b537fa'          " vimscript completion
 Plug 'Shougo/denite.nvim', 'fbee9c1'
 
 Plug 'wellle/tmux-complete.vim', '7237d8d' " tmux completion
