@@ -61,7 +61,7 @@ Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
 Plug 'Shougo/neco-vim', '4b537fa'          " vimscript completion
 Plug 'Shougo/denite.nvim', 'fbee9c1'
 
-Plug 'wellle/tmux-complete.vim', '7237d8d' " tmux completion
+Plug 'wellle/tmux-complete.vim', '87f6f96'
 
 call plug#end()
 
