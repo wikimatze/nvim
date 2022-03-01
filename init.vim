@@ -27,7 +27,7 @@ Plug 'francoiscabrol/ranger.vim', '91e82de'
 Plug 'itchyny/lightline.vim', 'a29b833'
 Plug 'jamessan/vim-gnupg', '90b86c5'
 Plug 'janko-m/vim-test', '795f164'
-Plug 'tpope/vim-dispatch', 'fe6a343'
+Plug 'tpope/vim-dispatch', '00e77d9'
 Plug 'jreybert/vimagit', {'commit': 'bf7b16e', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', '8e69652'
