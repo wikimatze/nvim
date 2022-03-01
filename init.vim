@@ -22,7 +22,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'andymass/vim-matchup', '9e0b6f3'
 Plug 'brooth/far.vim', '611d9c2'
 Plug 'christoomey/vim-tmux-navigator', '2fd76aa'
-Plug 'cohama/lexima.vim', '89bf4d'
+Plug 'cohama/lexima.vim', 'abfae59'
 Plug 'francoiscabrol/ranger.vim', '91e82de'
 Plug 'itchyny/lightline.vim', 'f5f870e'
 Plug 'jamessan/vim-gnupg', '90b86c5'
