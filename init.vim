@@ -33,7 +33,7 @@ Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', '50705e8'
 Plug 'matze/vim-move', '1460aa9'
 Plug 'mbbill/undotree', '08e259b'
-Plug 'mhinz/vim-grepper', 'e9004ce'
+Plug 'mhinz/vim-grepper', '2b93535'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'reedes/vim-lexical', '0898c0c'
 Plug 'tpope/vim-fugitive', '511d303'
