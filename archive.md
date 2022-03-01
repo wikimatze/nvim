@@ -1031,3 +1031,9 @@ let g:tagbar_previewwin_pos = 'botright'
 - mappings
 -- `nnoremap <silent> <F3> :TagbarToggle<CR>` in `ru mappings/tagbar.vim`
 
+
+## [vim-dadbod](https://github.com/tpope/vim-dadbod)
+Tool to interact with Databases.
+
+e.g.`:DB sqlite:job_vacancy_development.db select count(*) from job_offers`
+
