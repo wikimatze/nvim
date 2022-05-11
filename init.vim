@@ -37,7 +37,7 @@ Plug 'mhinz/vim-grepper', '2b93535'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'reedes/vim-lexical', '0898c0c'
 Plug 'tpope/vim-fugitive', '511d303'
-Plug 'tpope/vim-markdown', {'commit': '276524e', 'for': 'markdown' }
+Plug 'tpope/vim-markdown', {'commit': 'b78bbce', 'for': 'markdown' }
 Plug 'tpope/vim-surround', 'f51a26d'
 Plug 'tyru/caw.vim', '3aefcb5'
 Plug 'vim-ruby/vim-ruby', { 'commit': 'e367f7b', 'for': 'ruby' }
