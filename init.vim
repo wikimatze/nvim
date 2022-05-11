@@ -40,7 +40,7 @@ Plug 'tpope/vim-fugitive', '511d303'
 Plug 'tpope/vim-markdown', {'commit': 'b78bbce', 'for': 'markdown' }
 Plug 'tpope/vim-surround', 'f51a26d'
 Plug 'tyru/caw.vim', '3aefcb5'
-Plug 'vim-ruby/vim-ruby', { 'commit': 'e367f7b', 'for': 'ruby' }
+Plug 'vim-ruby/vim-ruby', { 'commit': '811d806', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
