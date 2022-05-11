@@ -31,7 +31,7 @@ Plug 'tpope/vim-dispatch', '00e77d9'
 Plug 'jreybert/vimagit', {'commit': 'fb71060', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', '50705e8'
-Plug 'matze/vim-move', '1460aa9'
+Plug 'matze/vim-move', '97fc860'
 Plug 'mbbill/undotree', '08e259b'
 Plug 'mhinz/vim-grepper', '2b93535'
 Plug 'rbgrouleff/bclose.vim'
