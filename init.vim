@@ -282,6 +282,7 @@ ru mappings/grepper.vim                   " <C-n|C-p> will browser grep history,
 ru mappings/keep_cursor_joining_lines.vim " indent joining lines the right way
 ru mappings/moving_wrapped_lines.vim      " Use hjkl in wrapped-lined files
 ru mappings/neoyank.vim                   " <leader>y search the yank history
+ru mappings/finanzen.vim                  " F6 will open notes with the finanzen file
 ru mappings/notes.vim                     " F7 will open notes with the collect file
 ru mappings/pry.vim                       " ,pi toggles 'binding pry'
 ru mappings/quickediting.vim              " ,ba; ,bm; ,br; ,ev to edit files of vim repos
