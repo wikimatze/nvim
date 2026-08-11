@@ -61,6 +61,7 @@ Plug 'Shougo/denite.nvim', 'fbee9c1'
 
 Plug 'wellle/tmux-complete.vim', '87f6f96'
 
+Plug 'roxma/vim-paste-easy'
 call plug#end()
 
 let g:flog_default_date_format = 'format:%Y-%m-%d %H:%M:%S'
@@ -369,4 +370,6 @@ function! CopyMatches(reg)
 endfunction
 command! -register CopyMatches call CopyMatches(<q-reg>)
 
+
 "}}}
+
