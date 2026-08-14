@@ -36,7 +36,7 @@ Plug 'mbbill/undotree', '08e259b'
 Plug 'mhinz/vim-grepper', '2b93535'
 Plug 'rbgrouleff/bclose.vim'
 Plug 'reedes/vim-lexical', '0898c0c'
-Plug 'tpope/vim-fugitive', '511d303'
+Plug 'tpope/vim-fugitive', '3b753cf'
 Plug 'tpope/vim-markdown', {'commit': 'b78bbce', 'for': 'markdown' }
 Plug 'tpope/vim-surround', 'f51a26d'
 Plug 'tyru/caw.vim', '3aefcb5'
@@ -276,6 +276,7 @@ ru mappings/commandline.vim               " <C-b> go char left, <C-f> go char ri
 ru mappings/copy_paste_clipboard.vim      " <C-c> for copy, <leader-C-v> to paste from clipboard in normal mode
 ru mappings/esc_with_jk.vim               " emulate ESC with jk
 ru mappings/far.vim                       " q will close the Far window
+ru mappings/fugitive.vim                  " q will close fugitive windows
 ru mappings/fzf.vim                       " <C-p> start file search, ; will start buffer search
 ru mappings/flog.vim                      " q will close flog related windows
 ru mappings/grepper.vim                   " <C-n|C-p> will browser grep history, gs as a motion (e.g. gsW, or mark a text in visual and press gs)

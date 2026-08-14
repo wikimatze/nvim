@@ -54,23 +54,23 @@ Need this plugin to close the ranger window with `q`.
 ## [fugitive](http://github.com/tpope/vim-fugitive)
 Git wrapper.
 
-- `:Gstatus` ... git status
-  - `<C-n>` ... go to the next file
-  - `<C-p>` ... go to the previous file
+- `:Git` ... git status
+  - `)` ... go to the next file
+  - `(` ... go to the previous file
   - `-` ... git add/git reset depending where you are in the windows (mark multiple files in visual mode)
   - `cc` ... make git commit
   - `ca` ... makes git commit ammend
-  - `D` ... makes diff
+  - `dd` ... makes diff
   - `ds` ... makes a horizontal
   - `dv` ... makes a vertical diff
-  - `q` ... close :Gstatus
-  - `p` ... run `git add -p` for the current file
+  - `q` ... close :Git
 - `:Gwrite` ... stage the current file to index
-- `:Gcommit` ... git commit (press *wq* for send)
-- `:Gremove` ... git rm
-- `:Gmove` ... rename the current file and add change to index
-- `:Gpush` ... performs a git push
+- `:Git commit` ... git commit (press *zz* for send)
+- `:GRemove` ... git rm
+- `:GMove` ... rename the current file and add change to index
+- `:Git push` ... performs a git push
 - `:Gread` ... makes will load the previous file status on the current file buffer
+- `:Gllog` ... will open a window at the top with the diff and a window below with the tree
 - `:Gdiffsplit` ... split the window to see diff
   - `]c` ... jump to next hunk of the merge
   - `[c` ... jump to previous hunk of merge
@@ -82,11 +82,11 @@ Git wrapper.
     - `:diffupdate` ... clean up the views when having a file with many conflicts
     - `dp` ... if you are not in the working copy, you can use this command to put in the changes
     - when done with merging, run `:Gwrite` and `:only!` on the working copy to close all the other windows
-- `:Gblame` ... git blame
+- `:Git blame` ... git blame
   - `q` ... close blame and return to blamed window
   - `o` ... opens commit horizontally, leaving blame window open
   - `<CR>` ... opens commit for currently blame commit, blame window is closed
-- `:Git` ... perform every other normal git command in the terminal
+- `:Git ...` ... perform every other normal git command in the terminal
 - searching:
   - search working copy files: `:Ggrep <word>`
   - search commit messages: `:Glog --grep=fugitive`
