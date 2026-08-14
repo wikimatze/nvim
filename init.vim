@@ -21,7 +21,7 @@ endif
 call plug#begin('~/.config/nvim/plugged')
 Plug 'andymass/vim-matchup', '5e3c4a3'
 Plug 'brooth/far.vim', '796d608'
-Plug 'christoomey/vim-tmux-navigator', '9ca5bfe'
+Plug 'christoomey/vim-tmux-navigator', 'e41c431'
 Plug 'cohama/lexima.vim', 'abfae59'
 Plug 'francoiscabrol/ranger.vim', '91e82de'
 Plug 'itchyny/lightline.vim', 'a29b833'
