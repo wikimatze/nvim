@@ -24,7 +24,7 @@ Plug 'brooth/far.vim', '796d608'
 Plug 'christoomey/vim-tmux-navigator', 'e41c431'
 Plug 'cohama/lexima.vim', 'abfae59'
 Plug 'francoiscabrol/ranger.vim', '91e82de'
-Plug 'itchyny/lightline.vim', 'a29b833'
+Plug 'itchyny/lightline.vim', 'd042c50'
 Plug 'jamessan/vim-gnupg', '96be0be'
 Plug 'janko-m/vim-test', '795f164'
 Plug 'tpope/vim-dispatch', '00e77d9'
@@ -54,6 +54,7 @@ Plug 'junegunn/fzf.vim', '1f7bfa4'
 
 " Plug 'wikimatze/vim-radio'
 
+" should use nvim-cmp instead?!
 Plug 'Shougo/deoplete.nvim', { 'commit': '1c40f64', 'do': ':UpdateRemotePlugins' }
 Plug 'fishbullet/deoplete-ruby', '7f6fb3a' " ruby completion
 Plug 'Shougo/neco-vim', '4b537fa'          " vimscript completion
@@ -359,6 +360,7 @@ function! AlternateForCurrentFile()
   return new_file
 endfunction
 nnoremap <leader>. :call OpenTestAlternate()<cr>
+
 
 " CopyMatch {{{
 " Details under https://vim.fandom.com/wiki/Copy_search_matches
