@@ -1037,3 +1037,6 @@ Tool to interact with Databases.
 
 e.g.`:DB sqlite:job_vacancy_development.db select count(*) from job_offers`
 
+## [vim-gnupg](https://github.com/jamessan/vim-gnupg)
+Transparent editing of gpg encrypted files. (*no configuration*)
+

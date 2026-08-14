@@ -166,8 +166,8 @@ Need for vim-test to have a separate window for the results of the async command
 Updates tags file whenever you save a file.
 
 
-## [vim-gnupg](https://github.com/jamessan/vim-gnupg)
-Transparent editing of gpg encrypted files. (*no configuration*)
+## [gpg.nvim](https://github.com/benoror/gpg.nvim)
+Editing GPG encrypted files symmetrically.
 
 
 ## [vim-grepper](https://github.com/mhinz/vim-grepper)
