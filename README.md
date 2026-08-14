@@ -276,7 +276,7 @@ Change quotes and all other delimiters.
     press `S` and then the quote (`"", (), {}`) you want to have and it wraps the string in this
 
 
-## [vim-test](https://github.com/janko-m/vim-test)
+## [vim-test](https://github.com/vim-test/vim-test)
 Easy run your test for various programming languages.
 
 - `:TestNearest` ... will only run where cursor location is
