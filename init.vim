@@ -27,7 +27,7 @@ Plug 'francoiscabrol/ranger.vim', '91e82de'
 Plug 'itchyny/lightline.vim', 'd042c50'
 Plug 'benoror/gpg.nvim', '9fa2acb'
 Plug 'vim-test/vim-test', '2676d84'
-Plug 'jreybert/vimagit', {'commit': 'fb71060', 'on': ['Magit'] }
+Plug 'jreybert/vimagit', {'commit': '2e27fa2', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', '50705e8'
 Plug 'matze/vim-move', '97fc860'
