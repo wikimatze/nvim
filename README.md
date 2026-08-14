@@ -158,8 +158,6 @@ Display the undo graph for a file.
 - `:UndotreeToggle` ... turn on or off the toggle feature
 
 
-## [vim-dispatch](https://github.com/tpope/vim-dispatch)
-Need for vim-test to have a separate window for the results of the async command
 
 
 ## [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags)
