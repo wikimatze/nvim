@@ -164,8 +164,8 @@ Display the undo graph for a file.
 Updates tags file whenever you save a file.
 
 
-## [gpg.nvim](https://github.com/benoror/gpg.nvim)
-Editing GPG encrypted files symmetrically.
+## [vim-gnupg](https://github.com/jamessan/vim-gnupg)
+Transparent editing of gpg encrypted files. (*no configuration*)
 
 
 ## [vim-grepper](https://github.com/mhinz/vim-grepper)
