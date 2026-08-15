@@ -158,8 +158,6 @@ Display the undo graph for a file.
 - `:UndotreeToggle` ... turn on or off the toggle feature
 
 
-
-
 ## [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags)
 Updates tags file whenever you save a file.
 
@@ -174,13 +172,14 @@ Transparent editing of gpg encrypted files. (*no configuration*)
 Use grep to find anything.
 
 
-## [vim-lexical](https://github.com/reedes/vim-lexical)
+## [vim-lexical](https://github.com/preservim/vim-lexical)
 Custom dictionary, thesaurus, and spell checking options for files or when calling a command.
 
 - `<C-x> <C-k>` ... opens the dictionary (in insert and normal mode)
 - `<C-x>k` ... opens the thesaurus (only in normal mode)
 - `<C-n>|<C-p>` ... navigate to the next or previous matching
 - custom commands: `:German|:English` ... will load customized settings
+- `,s` ... enable spell checker mode
 
 
 ## [vimagit](https://github.com/jreybert/vimagit)

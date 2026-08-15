@@ -13,7 +13,7 @@ if empty(glob('~/.config/nvim/thesaurus'))
   " get german thesaurus
   silent !wget https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip -O ~/.config/nvim/thesaurus/mthesaur.zip && unzip ~/.config/nvim/thesaurus/mthesaur.zip -d ~/.config/nvim/thesaurus/
   " get english thesaurus
-  silent !wget https://ia800205.us.archive.org/7/items/mobythesauruslis03202gut/mthesaur.txt -O ~/.config/nvim/thesaurus/mthesaur.txt && sed -i 's/,/;/g' ~/.config/nvim/thesaurus/mthesaur.txt
+  silent !wget https://raw.githubusercontent.com/zeke/moby/master/words.txt -O ~/.config/nvim/thesaurus/mthesaur.txt && sed -i 's/,/;/g' ~/.config/nvim/thesaurus/mthesaur.txt
   silent !rm ~/.config/nvim/thesaurus/mthesaur.zip ~/.config/nvim/thesaurus/LICENSE.txt
 endif
 
@@ -34,7 +34,7 @@ Plug 'ludovicchabant/vim-gutentags', 'aa47c5e'
 Plug 'mbbill/undotree', '08e259b'
 Plug 'mhinz/vim-grepper', '2b93535'
 Plug 'rbgrouleff/bclose.vim'
-Plug 'reedes/vim-lexical', '0898c0c'
+Plug 'preservim/vim-lexical', '9204fca'
 Plug 'tpope/vim-fugitive', '3b753cf'
 Plug 'tpope/vim-markdown', {'commit': 'b78bbce', 'for': 'markdown' }
 Plug 'tpope/vim-surround', 'f51a26d'
