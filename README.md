@@ -163,6 +163,8 @@ Display the undo graph for a file.
 ## [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags)
 Updates tags file whenever you save a file.
 
+- `:Tags` ... prints a list of tags in the current project
+
 
 ## [vim-gnupg](https://github.com/jamessan/vim-gnupg)
 Transparent editing of gpg encrypted files. (*no configuration*)

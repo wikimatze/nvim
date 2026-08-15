@@ -29,8 +29,8 @@ Plug 'jamessan/vim-gnupg', '96be0be'
 Plug 'vim-test/vim-test', '2676d84'
 Plug 'jreybert/vimagit', {'commit': '2e27fa2', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'c49ffdc', 'for': 'tex' }
-Plug 'ludovicchabant/vim-gutentags', '50705e8'
 Plug 'matze/vim-move', '97fc860'
+Plug 'ludovicchabant/vim-gutentags', 'aa47c5e'
 Plug 'mbbill/undotree', '08e259b'
 Plug 'mhinz/vim-grepper', '2b93535'
 Plug 'rbgrouleff/bclose.vim'
