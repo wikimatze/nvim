@@ -5,7 +5,6 @@ au! BufRead,BufNewFile *.haml set filetype=haml
 au! BufRead,BufNewFile *.hs set filetype=haskell
 au! BufRead,BufNewFile *.js,*.json  set filetype=javascript
 au! BufRead,BufNewFile *.less set filetype=less
-au! BufRead,BufNewFile *.m*down,*md,*.html.markdown.erb set filetype=markdown
 au! BufRead,BufNewFile *.pp set filetype=puppet
 au! BufRead,BufNewFile *.rb,*.autotest set filetype=ruby
 au! BufRead,BufNewFile *.sass,*.scss set filetype=scss
@@ -18,3 +17,9 @@ au! BufRead,BufNewFile *conf set filetype=conf
 
 " All plugin doc file should be the 'help' filetype
 au! BufRead,BufNewFile plugged/**/*.txt set filetype=help
+
+au! BufRead,BufNewFile *.m*down,*md,*.html.markdown.erb set filetype=markdown
+let g:markdown_syntax_conceal = 0
+let g:markdown_fenced_languages = ['html', 'python', 'ruby', 'sh']
+let g:markdown_folding = 1
+

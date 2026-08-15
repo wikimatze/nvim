@@ -204,10 +204,6 @@ A new way to use git in Vim.
 Better matching and syntax highlighting.
 
 
-## [vim-markdown](https://github.com/tpope/vim-markdown)
-Markdown-syntax highlighting.
-
-
 ## [vim-misc](https://github.com/xolox/vim-misc)
 Extended Vim standard library needed for vim-notes plugin.
 

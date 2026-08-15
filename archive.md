@@ -1041,3 +1041,6 @@ e.g.`:DB sqlite:job_vacancy_development.db select count(*) from job_offers`
 ## [vim-dispatch](https://github.com/tpope/vim-dispatch)
 Need for vim-test to have a separate window for the results of the async command
 
+
+## [vim-markdown](https://github.com/tpope/vim-markdown)
+Markdown-syntax highlighting.
