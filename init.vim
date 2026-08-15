@@ -28,7 +28,7 @@ Plug 'itchyny/lightline.vim', 'd042c50'
 Plug 'jamessan/vim-gnupg', '96be0be'
 Plug 'vim-test/vim-test', '2676d84'
 Plug 'jreybert/vimagit', {'commit': '2e27fa2', 'on': ['Magit'] }
-Plug 'lervag/vimtex', {'commit': 'b31b49f', 'for': 'tex' }
+Plug 'lervag/vimtex', {'commit': 'c49ffdc', 'for': 'tex' }
 Plug 'ludovicchabant/vim-gutentags', '50705e8'
 Plug 'matze/vim-move', '97fc860'
 Plug 'mbbill/undotree', '08e259b'
