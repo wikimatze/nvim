@@ -29,26 +29,26 @@ Plug 'jamessan/vim-gnupg', '96be0be'
 Plug 'vim-test/vim-test', '2676d84'
 Plug 'jreybert/vimagit', {'commit': '2e27fa2', 'on': ['Magit'] }
 Plug 'lervag/vimtex', {'commit': 'c49ffdc', 'for': 'tex' }
-Plug 'matze/vim-move', '97fc860'
-Plug 'ludovicchabant/vim-gutentags', 'aa47c5e'
-Plug 'mbbill/undotree', '08e259b'
-Plug 'mhinz/vim-grepper', '2b93535'
+Plug 'ludovicchabant/vim-gutentags', '50705e8'
+Plug 'matze/vim-move', '267fd1c'
+Plug 'mbbill/undotree', '6fa6b57'
+Plug 'mhinz/vim-grepper', '2b93535' " new version has regression bug with the Escape key
 Plug 'rbgrouleff/bclose.vim'
 Plug 'preservim/vim-lexical', '9204fca'
 Plug 'tpope/vim-fugitive', '3b753cf'
-Plug 'tpope/vim-surround', 'f51a26d'
-Plug 'tyru/caw.vim', '3aefcb5'
-Plug 'vim-ruby/vim-ruby', { 'commit': '811d806', 'for': 'ruby' }
+Plug 'tpope/vim-surround', '3d188ed'
+Plug 'tyru/caw.vim', '748f15c'
+Plug 'vim-ruby/vim-ruby', { 'commit': 'bf3a599', 'for': 'ruby' }
 Plug 'vim-scripts/IndexedSearch', '500a64a'
 Plug 'xolox/vim-misc', '1.17.6'
 Plug 'xolox/vim-notes', '0.33.4'
-Plug 'Shougo/neosnippet.vim', 'j973e80'
-Plug 'Shougo/neoyank.vim', '0d86f65'
+Plug 'Shougo/neosnippet.vim', 'efb2a61'
+Plug 'Shougo/neoyank.vim', '8b3c9f7'
 
 " Should something now work (like commandline completion) install it manually
 " via https://github.com/junegunn/fzf#using-git
-Plug 'junegunn/fzf', { 'tag': '0.29.0', 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim', '1f7bfa4'
+Plug 'junegunn/fzf', { 'tag': 'v0.74.2', 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim', 'd2a59a9'
 
 " Plug 'wikimatze/vim-radio'
 
