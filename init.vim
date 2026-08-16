@@ -23,7 +23,7 @@ Plug 'andymass/vim-matchup', '5e3c4a3'
 Plug 'brooth/far.vim', '796d608'
 Plug 'christoomey/vim-tmux-navigator', 'e41c431'
 Plug 'cohama/lexima.vim', 'abfae59'
-Plug 'francoiscabrol/ranger.vim', '91e82de'
+"Plug 'francoiscabrol/ranger.vim', { 'commit': '91e82de', 'on': 'Ranger' }
 Plug 'itchyny/lightline.vim', 'd042c50'
 Plug 'jamessan/vim-gnupg', '96be0be'
 Plug 'vim-test/vim-test', '2676d84'
