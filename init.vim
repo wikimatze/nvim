@@ -265,8 +265,9 @@ ru! plugin_settings/*.vim
 " }}}
 " Settings {{{
 
-ru settings/auto_line_return.vim " always return to the last cursors position for a file
-ru settings/filetype_setters.vim " set filetypes to certain files
+ru settings/auto_line_return.vim    " always return to the last cursors position for a file
+ru settings/filetype_setters.vim    " set filetypes to certain files
+ru settings/markdown_concealing.vim " disable concealing for markdown
 
 " }}}
 " Mappings {{{
